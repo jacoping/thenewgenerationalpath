@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% if page.language == "eng" %}
+  <html lang="en" dir="ltr">
+{% else %}
+  <html lang="it" dir="ltr">
+{% endif %}
+
+{% include head.html %}
+
+
+<body class="">
+{% include header.html %}
+
+
+{{content}}
+
+
+{% include scripts-after.html %}
+</body>
+
+</html>

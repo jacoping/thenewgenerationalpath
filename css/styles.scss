@@ -1,0 +1,114 @@
+---
+---
+
+
+/* FONTS */
+html {
+  font-family: 'neue-haas-grotesk-display', 'Roboto', sans-serif;
+}
+
+
+/* LAYOUT */
+.j-container-fluid {
+  max-width: 1000px;
+}
+
+:root {
+  --swiper-theme-color: rgb(242,130,0);
+}
+
+.j-filetto {
+  display: inline-block;
+  border-bottom: .30em solid var(--bs-dark);
+}
+
+.j-bg-orange-extralight {
+  background-color: rgb(242,225,206);
+}
+
+.j-bg-orange-light {
+  background-color: rgb(242,208,169);
+}
+
+.j-bg-orange {
+  background-color: rgb(242,186,121);
+}
+
+.j-bg-orange-dark {
+  background-color: rgb(242,130,0);
+}
+
+.j-orange-light {
+  color: rgb(242,208,269);
+}
+
+.j-orange {
+  color: rgb(242,186,121);
+}
+
+.j-orange-dark {
+  color: rgb(242,130,0);
+}
+
+.j-border-darkorange-2px {
+  border: 2px solid rgb(242,130,0);
+}
+
+.j-border-radius-20 {
+  border-radius: 20px;
+}
+
+.j-fw-100 {
+  font-weight: 100;
+}
+.j-fw-300 {
+  font-weight: 300;
+}
+.j-fw-400 {
+  font-weight: 400;
+}
+.j-fw-500 {
+  font-weight: 500;
+}
+.j-fw-700 {
+  font-weight: 700;
+}
+.j-fw-900 {
+  font-weight: 900;
+}
+
+.j-04vw {
+  font-size: 04vw
+}
+
+.j-05vw {
+  font-size: 05vw
+}
+
+.j-06vw {
+  font-size: 06vw
+}
+
+.j-07vw {
+  font-size: 07vw
+}
+
+.j-08vw {
+  font-size: 08vw
+}
+
+.j-09vw {
+  font-size: 09vw
+}
+
+.j-10vw {
+  font-size: 10vw
+}
+
+.j-11vw {
+  font-size: 11vw
+}
+
+.j-lh-08 {
+  line-height: 0.8
+}

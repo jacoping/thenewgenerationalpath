@@ -1,0 +1,11 @@
+# va in html title
+title: Urbanistic Project / The New Generational Path
+# va in html meta description
+description: A seminar series on emerging design practices and culture in European cities
+# va nella navigazione
+sitename: sitename
+# accessibile con site.url
+url: https://www.example.com
+
+kramdown:
+  hard_wrap: true

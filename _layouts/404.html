@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+{% include head.html %}
+
+<body>
+
+  {{content}}
+
+  <h1>Nothing found here..</h1>
+
+  <script>
+	  let redirect = function () {
+		setTimeout(function(){
+				window.location.replace("/");
+			}
+			, 100);
+		}();
+	</script>
+
+</body>
+
+</html>

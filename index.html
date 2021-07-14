@@ -1,0 +1,172 @@
+---
+layout: home
+language: eng
+---
+
+
+
+<!-- div class="container" style="height: 0px; color:white;">
+    <h1 class="">{{site.title}}</h1>
+  </div-->
+
+<div class="container">
+  <img class="w-100" src="/res/title-temp.png">
+</div>
+
+<div class="mt-5">
+  &nbsp
+</div>
+
+<!--div class="container">
+    <div class="row">
+      <div class="col-md-3 offset-md-2">
+        <img class="img-fluid" src="https://picsum.photos/800/800">
+      </div>
+      <div class="col-md-6 mt-5 ms-3 p-2">
+        <div class="" data-lorem="50w">
+          <p class="fw-bold">some info</p>
+        </div>
+        <p class="fw-bold"><a href="#">more info</a></p>
+      </div>
+    </div>
+  </div-->
+
+
+<style media="screen">
+  .j-outline-none {
+    border: none;
+    outline: none;
+  }
+</style>
+
+
+
+
+<section class="my-5 pt-5 pb-5 bg-light">
+
+  <div class="container">
+
+    <div class="d-flex justify-content-between">
+      <div class="">
+        <h2 class="j-11vw fw-bold mb-3 j-filetto text-dark">Program</h2>
+        <p class="pe-2" data-lorem="25w"></p>
+      </div>
+      <div class="d-md-none d-flex fs-1 align-self-end ps-2">
+        <div class="j-outline-none" id="swiper-events-button-prev"> <i class="bi bi-caret-left-fill"></i> </div>
+        <div class="me-2 j-outline-none" id="swiper-events-button-next"> <i class="bi bi-caret-right-fill"></i> </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- EVENTS MOBILE -->
+
+  <div class="d-md-none mt-3 swiper-container" id="swiper-events">
+    <div class="swiper-wrapper">
+
+      {% for event in site.data.events %}
+      <div class="swiper-slide px-2">
+
+        <div content="country" class="d-flex justify-content-end" style="margin-bottom: -10vw">
+          <p class="m0 j-07vw fw-bold j-bg-orange-light px-2 text-dark d-inline-block j-border-radius-20 j-border-darkorange-2px">{{event.country}}</p>
+        </div>
+
+        <div style="height: 400px;" class="p-3 j-border-darkorange-2px j-border-radius-20">
+
+          <div content="guests" class="mt-2">
+            <p class="m-0 j-orange-dark j-09vw j-fw-700 lh-1">{{event.studio-name}}</p>
+            <p class="j-orange-dark m-0 j-05vw j-fw-700"> {{event.studio-place}} </p>
+            <p class=" m-0 mt-4 j-orange-dark j-09vw j-fw-700 lh-1"> {{event.scholar-name}}</p>
+            <p class="j-orange-dark m-0 j-05vw j-fw-700"> {{event.scholar-place}} </p>
+          </div>
+
+          <div content="date and link" class="position-absolute bottom-0 j-04vw">
+            <p class="m-0 small"> {{event.date | date: "%A"}} </p>
+            <p class="m-0 fw-bold"> {{event.date | date: "%d"}} {{event.date | date: "%B"}} {{event.date | date: "%Y"}} </p>
+            <p class="m-0 small"> {{event.time}} </p>
+            <p class="mt-2 j-orange-dark"><i class="bi bi-arrow-right-circle"></i><a class="ps-2 j-orange-dark " target="_blank" href="https://{{event.link}}">{{event.link}}</a></p>
+          </div>
+
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="swiper-pagination" style="position: relative; bottom: 0;"></div>
+
+  </div>
+
+
+
+  <!-- EVENTS DESKTOP -->
+
+  <div class="container">
+    <div class="d-none d-md-flex mt-2 row">
+
+      {% for event in site.data.events %}
+      <div class="col-md-3">
+
+        <div content="country" class="d-flex justify-content-end" style="margin-bottom: -25px">
+          <p class="m0 fw-bold j-bg-orange-light px-2 text-dark d-inline-block j-border-radius-20 j-border-darkorange-2px">{{event.country}}</p>
+        </div>
+
+        <div class="j-border-radius-20 j-border-darkorange-2px my-2 p-3" style="height: 500px">
+          <div class="">
+            <p class="m-0 fs-3 fw-3">{{event.studio-name}}</p>
+            <p>{{event.studio-place}}</p>
+            <p class="m-0 fs-3 fw-3">{{event.scholar-name}}</p>
+            <p>{{event.scholar-place}}</p>
+          </div>
+          <div content="date and link" class="">
+            <p class="m-0 small"> {{event.date | date: "%A"}} </p>
+            <p class="m-0 fw-bold"> {{event.date | date: "%d"}} {{event.date | date: "%B"}} {{event.date | date: "%Y"}} </p>
+            <p class="m-0 small"> {{event.time}} </p>
+            <p class="mt-2 j-orange-dark"><i class="bi bi-arrow-right-circle"></i><a class="ps-2 j-orange-dark " target="_blank" href="https://{{event.link}}">{{event.link}}</a></p>
+          </div>
+        </div>
+
+      </div>
+      {% endfor %}
+
+    </div>
+
+  </div>
+</section>
+
+
+<section class="my-5 pb-5">
+  <div class="container">
+
+    <div class="d-flex justify-content-between">
+      <div class="text-end">
+        <h2 class="j-11vw fw-bold mb-3 j-filetto text-dark">Guests</h2>
+        <p class="text-start pe-2" data-lorem="25w"></p>
+      </div>
+      <div class="d-md-none d-flex fs-1 align-self-end ps-2">
+        <div class="j-outline-none" id="swiper-events-button-prev"> <i class="bi bi-caret-left-fill"></i> </div>
+        <div class="me-2 j-outline-none" id="swiper-events-button-next"> <i class="bi bi-caret-right-fill"></i> </div>
+      </div>
+    </div>
+
+    <div class="row mt-3">
+      {% include people-card.html type="studio" %}
+    </div>
+
+    <div class="row mt-5">
+      {% include people-card.html type="scholar" %}
+    </div>
+  </div>
+</section>
+
+
+<div class="">
+  <div class="">
+    <img class="img-fluid" src="https://picsum.photos/2000/1000">
+  </div>
+</div>
+
+<footer class="mt-5 py-5 bg-light">
+  <div class="container">
+    Urbanistic Project \ The New Generational Path
+
+  </div>
+</footer>
