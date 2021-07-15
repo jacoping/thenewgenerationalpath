@@ -17,9 +17,15 @@
   </div>
 
   <section content="intro" class="container">
-    <div class="row">
-      <div class="col-9 col-lg-5 j-orange j-fw-300 j-fs-3rem j-vw-07 j-lh-08">
+    <div class="row j-position-relative">
+      <div class="col-9 col-lg-5 j-orange j-fw-300 j-fs-07vw j-fs-lg-3rem j-lh-08" style="margin-bottom: 7em;">
         {{content}}
+        <div class="long-arrow" style="position: absolute; top: 6em; left: 2em;">
+          <img src="/res/freccia-lunga.svg" alt="long-arrow" style="width: 10em;">
+            <div class="j-lh-05" style="position: absolute; top: 19em; left: 9.5em;" >
+              <a class="text-dark j-fw-700 j-fs-05vw j-fs-lg-3rem text-decoration-none" href="/about">learn<br>more</a>
+            </div>
+        </div>
       </div>
     </div>
   </section>
@@ -33,7 +39,7 @@
       <div class="mt-5 row">
 
         {% for event in site.data.events %}
-        <div class="{% cycle "card-orange", "card-dark" %} p-4 {% cycle "col-lg-4", "col-lg-8", "col-lg-8", "col-lg-4"%}">
+        <div class="p-4 {% cycle "card-orange card-lg-orange col-lg-4", "card-dark card-lg-dark col-lg-8", "card-orange card-lg-dark col-lg-8", "card-dark card-lg-orange col-lg-4" %}">
 
           <div content="country and date" class="d-flex justify-content-end">
             <div class="text-end j-fw-700 lh-1">
@@ -42,21 +48,22 @@
             </div>
           </div>
 
-          <div class="mt-3">
-            <p class="m-0 j-fs-3rem j-vw-115 j-fw-700 color-one j-lh-095 col-10 ">{{ event.studio-name | upcase }}</p>
+          <div content="guests" class="mt-3">
+            <p class="m-0 j-fs-115vw j-fs-lg-3rem j-fw-700 color-one j-lh-095 col-10 ">{{ event.studio-name | upcase }}</p>
             <div class="mt-4 mb-5">
-              <p class="d-inline j-bg-layer j-vw-035 j-fw-600 meccano"> {% include dot.html %} <span class="inner"> {{ event.studio-place | upcase }} </span>{% include dot.html %} </p>
+              <p class="d-inline j-bg-layer meccano j-fs-035vw j-fs-lg-1rem j-fw-600 "> {% include dot.html %} <span class="inner"> {{ event.studio-place | upcase }} </span>{% include dot.html %} </p>
             </div>
-            <p class="m-0 j-fs-3rem j-vw-115 j-fw-700 color-one j-lh-095 col-10 ">{{ event.scholar-name | upcase }}</p>
+            <p class="m-0 j-fs-115vw j-fs-lg-3rem j-fw-700 color-one j-lh-095 col-10 ">{{ event.scholar-name | upcase }}</p>
             <div class="mt-4 mb-4">
-              <p class="d-inline j-bg-layer j-vw-035 j-fw-600 meccano"> {% include dot.html %} <span class="inner"> {{ event.scholar-place | upcase }} </span>{% include dot.html %} </p>
+              <p class="d-inline j-bg-layer meccano j-fs-035vw j-fs-lg-1rem j-fw-600 meccano"> {% include dot.html %} <span class="inner"> {{ event.scholar-place | upcase }} </span>{% include dot.html %} </p>
             </div>
           </div>
-          <div class="offset-8 pe-2">
-            <a href="/events/{{event.country | downcase}}"> <img src="/res/freccia-meccano.svg" alt="freccia"> </a>
+
+          <div content="arrow" class="d-flex justify-content-end">
+            <div class="j-fs-115vw j-fs-lg-3rem ">
+              <a href="/events/{{event.country | downcase}}"> <img src="/res/freccia-meccano.svg" alt="freccia" style="width: 3em; margin-right: .3em;"> </a>
+            </div>
           </div>
-
-
 
         </div>
         {% endfor %}
@@ -65,8 +72,6 @@
 
     </div>
   </section>
-
-  {% include footer.html %}
 
   {% include scripts-after.html %}
 </body>

@@ -40,30 +40,30 @@
     <div class="modal-content">
       <div class="modal-body j-bg-orange">
         <div class="d-flex flex-row-reverse" style="margin-top:15px; margin-right: 10px">
-          <a data-bs-dismiss="modal" border-0 j-outline-none">
+          <a data-bs-dismiss="modal">
               <img src="/res/close-white.svg" height="25px" alt="close-menu">
             </a>
         </div>
 
         <ul class="ms-3 list-unstyled">
           <li class="">
-            <a class="j-vw-08 j-fw-700 text-white text-decoration-none" href="/">home/program</a>
+            <a class="j-fs-08vw j-fw-700 text-white text-decoration-none" href="/">home/program</a>
           </li>
           <li class="">
             <ul class="list-unstyled">
               {% for event in site.data.events %}
-              <li><a class="ps-3 j-vw-08 j-fw-500 text-white text-decoration-none lh-1" href="/events/{{event.country | downcase}}">{{event.country | downcase}}</a></li>
+              <li><a class="ps-3 j-fs-08vw j-fw-500 text-white text-decoration-none lh-1" href="/events/{{event.country | downcase | slugify}}">{{event.country | downcase}}</a></li>
               {% endfor %}
             </ul>
           </li>
           <li class="mt-1">
-            <a class="j-vw-08 j-fw-700 text-white text-decoration-none" href="/about.html">about</a>
+            <a class="j-fs-08vw j-fw-700 text-white text-decoration-none" href="/about.html">about</a>
           </li>
           <li class="">
-            <a class="j-vw-08 j-fw-700 text-white text-decoration-none" href="/final-event.html">final event</a>
+            <a class="j-fs-08vw j-fw-700 text-white text-decoration-none" href="/final-event.html">final event</a>
           </li>
           <li class="">
-            <a class="j-vw-08 j-fw-700 text-white text-decoration-none" href="/credits">credits</a>
+            <a class="j-fs-08vw j-fw-700 text-white text-decoration-none" href="/credits">credits</a>
           </li>
         </ul>
 

@@ -13,15 +13,140 @@
   --bs-font-sans-serif: 'neue-haas-grotesk-display', serif;
 }
 
+/* GENERALI */
+
 .j-outline-none {
   border: none;
   outline: none;
+  &:focus {
+    box-shadow: none;
+  }
 }
+
+
 
 .j-filetto {
   display: inline-block;
   border-bottom: 0.30em solid var(--bs-dark);
 }
+
+.j-position-relative {
+  position: relative;
+}
+
+/* FONTS */
+
+.j-fw-100 {
+  font-weight: 100;
+}
+
+.j-fw-300 {
+  font-weight: 300;
+}
+
+.j-fw-400 {
+  font-weight: 400;
+}
+
+.j-fw-500 {
+  font-weight: 500;
+}
+
+.j-fw-600 {
+  font-weight: 600;
+}
+
+.j-fw-700 {
+  font-weight: 700;
+}
+
+.j-fw-900 {
+  font-weight: 900;
+}
+
+
+.j-lh-05 {
+  line-height: 0.5;
+}
+.j-lh-08 {
+  line-height: 0.8;
+}
+
+.j-lh-09 {
+  line-height: 0.9;
+}
+
+.j-lh-095 {
+  line-height: 0.95;
+}
+
+
+
+.j-fs-02vw {
+  font-size: 2vw;
+}
+
+.j-fs-03vw {
+  font-size: 3vw;
+}
+
+.j-fs-035vw {
+  font-size: 3.5vw;
+}
+
+.j-fs-04vw {
+  font-size: 4vw;
+}
+
+.j-fs-05vw {
+  font-size: 5vw;
+}
+
+.j-fs-06vw {
+  font-size: 6vw;
+}
+
+.j-fs-07vw {
+  font-size: 7vw;
+}
+
+.j-fs-08vw {
+  font-size: 8vw;
+}
+
+.j-fs-09vw {
+  font-size: 9vw;
+}
+
+.j-fs-10vw {
+  font-size: 10vw;
+}
+
+.j-fs-11vw {
+  font-size: 11vw;
+}
+
+.j-fs-115vw {
+  font-size: 11.5vw;
+}
+
+@media (min-width: 991.98px) {
+  .j-fs-lg-1rem {
+    font-size: 1rem;
+  }
+
+  .j-fs-lg-2rem {
+    font-size: 2rem;
+  }
+
+  .j-fs-lg-3rem {
+    font-size: 3rem;
+  }
+}
+
+
+
+/* SPECIFICI */
 
 .meccano {
   border-radius: 50rem!important;
@@ -80,112 +205,48 @@ $dark: #393939;
   }
 }
 
-
-
-
-
-.j-fw-100 {
-  font-weight: 100;
-}
-
-.j-fw-300 {
-  font-weight: 300;
-}
-
-.j-fw-400 {
-  font-weight: 400;
-}
-
-.j-fw-500 {
-  font-weight: 500;
-}
-
-.j-fw-600 {
-  font-weight: 600;
-}
-
-.j-fw-700 {
-  font-weight: 700;
-}
-
-.j-fw-900 {
-  font-weight: 900;
-}
-
-
-
-
-.j-lh-08 {
-  line-height: 0.8;
-}
-
-.j-lh-09 {
-  line-height: 0.9;
-}
-
-.j-lh-095 {
-  line-height: 0.95;
-}
-
-
-/* MOBILE ONLY */
-
-.j-fs-1rem {
-  font-size: 1rem;
-}
-.j-fs-2rem {
-  font-size: 2rem;
-}
-.j-fs-3rem {
-  font-size: 3rem;
-}
-
-@media (max-width: 991.98px) {
-  .j-vw-02 {
-    font-size: 2vw;
+@media (min-width: 991.98px) {
+  .card-lg-orange {
+    background-color: $orange;
+    border: 10px solid white;
+    margin-bottom: 50px;
+    .color-bg {
+      color: $orange;
+    }
+    .color-one {
+      color: white;
+    }
+    .color-two {
+      color: $dark;
+    }
   }
 
-  .j-vw-03vw {
-    font-size: 3vw;
+  .card-lg-dark {
+    background-color: $dark;
+    border: 10px solid white;
+    margin-top: 50px;
+    .color-bg {
+      color: $dark;
+    }
+    .color-one {
+      color: $orange;
+    }
+    .color-two {
+      color: white;
+    }
+  }
+}
+
+.j-arrow {
+  padding-right: 4vw;
+  @media (min-width: 991.98px) {
+    padding-right: 100px;
   }
 
-  .j-vw-035 {
-    font-size: 3.5vw;
-  }
-
-  .j-vw-04 {
-    font-size: 4vw;
-  }
-
-  .j-vw-05 {
-    font-size: 5vw;
-  }
-
-  .j-vw-06 {
-    font-size: 6vw;
-  }
-
-  .j-vw-07 {
-    font-size: 7vw;
-  }
-
-  .j-vw-08 {
-    font-size: 8vw;
-  }
-
-  .j-vw-09 {
-    font-size: 9vw;
-  }
-
-  .j-vw-10 {
-    font-size: 10vw;
-  }
-
-  .j-vw-11 {
-    font-size: 11vw;
-  }
-
-  .j-vw-115 {
-    font-size: 11.5vw;
+  img {
+    width: 30vw;
+    @media (min-width: 991.98px) {
+      width: 120px;
+    }
   }
 }
