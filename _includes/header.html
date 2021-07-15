@@ -1,12 +1,73 @@
-<header>
-  <nav class="navbar fixed-top navbar-light">
-    <div class="container flex justify-elements-between my-2">
-      <a class="navbar-brand" href="#"><img src="/res/logo.svg" alt="logo" style="height: 67px;"></a>
-      <button class="hamburger" type="button">
-        <span class="hamburger-box">
-          <span class="hamburger-inner"></span>
-        </span>
-      </button>
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <img src="/res/logo.svg" alt="logo" height="67px">
+    </a>
+    <a data-bs-toggle="modal" href="#openMobileMenu" class="navbar-toggler border-0 j-outline-none">
+      <img src="/res/hamburger.svg" alt="hamburger" height="25px">
+    </a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+            program
+          </a>
+          <ul class="dropdown-menu">
+            {% for event in site.data.events %}
+            <li><a class="dropdown-item" href="/events/{{event.country | downcase | slugify}}">{{event.country | downcase}}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about">about</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/final-event">final event</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/credits">credits</a>
+        </li>
+      </ul>
     </div>
-  </nav>
-</header>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+
+<div class="modal fade" id="openMobileMenu" tabindex="-1">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-body j-bg-orange">
+        <div class="d-flex flex-row-reverse" style="margin-top:15px; margin-right: 10px">
+          <a data-bs-dismiss="modal" border-0 j-outline-none">
+              <img src="/res/close-white.svg" height="25px" alt="close-menu">
+            </a>
+        </div>
+
+        <ul class="ms-3 list-unstyled">
+          <li class="">
+            <a class="j-vw-08 j-fw-700 text-white text-decoration-none" href="/">home/program</a>
+          </li>
+          <li class="">
+            <ul class="list-unstyled">
+              {% for event in site.data.events %}
+              <li><a class="ps-3 j-vw-08 j-fw-500 text-white text-decoration-none lh-1" href="/events/{{event.country | downcase}}">{{event.country | downcase}}</a></li>
+              {% endfor %}
+            </ul>
+          </li>
+          <li class="mt-1">
+            <a class="j-vw-08 j-fw-700 text-white text-decoration-none" href="/about.html">about</a>
+          </li>
+          <li class="">
+            <a class="j-vw-08 j-fw-700 text-white text-decoration-none" href="/final-event.html">final event</a>
+          </li>
+          <li class="">
+            <a class="j-vw-08 j-fw-700 text-white text-decoration-none" href="/credits">credits</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</div>

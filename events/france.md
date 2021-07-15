@@ -1,0 +1,4 @@
+---
+title: France
+layout: events
+---

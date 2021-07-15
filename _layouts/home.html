@@ -1,21 +1,74 @@
 <!DOCTYPE html>
 {% if page.language == "eng" %}
-  <html lang="en" dir="ltr">
+<html lang="en" dir="ltr">
 {% else %}
-  <html lang="it" dir="ltr">
+<html lang="it" dir="ltr">
 {% endif %}
 
 {% include head.html %}
 
 
 <body class="">
-{% include header.html %}
+  {% include header.html %}
 
 
-{{content}}
+  <div class="" style="margin-top: 150px">
+    &nbsp
+  </div>
+
+  <section content="intro" class="container">
+    <div class="row">
+      <div class="col-9 col-lg-5 j-orange j-fw-300 j-fs-3rem j-vw-07 j-lh-08">
+        {{content}}
+      </div>
+    </div>
+  </section>
 
 
-{% include scripts-after.html %}
+
+
+  <section content="program" class="">
+
+    <div class="container">
+      <div class="mt-5 row">
+
+        {% for event in site.data.events %}
+        <div class="{% cycle "card-orange", "card-dark" %} p-4 {% cycle "col-lg-4", "col-lg-8", "col-lg-8", "col-lg-4"%}">
+
+          <div content="country and date" class="d-flex justify-content-end">
+            <div class="text-end j-fw-700 lh-1">
+              <p class="m-0 color-one">{{event.country | upcase}}</p>
+              <p class="m-0 mt-2 color-two"> {{event.date | date: "%d"}} {{event.date | date: "%B" | upcase}} {{event.date | date: "%Y"}} <br> {{event.time}}</p>
+            </div>
+          </div>
+
+          <div class="mt-3">
+            <p class="m-0 j-fs-3rem j-vw-115 j-fw-700 color-one j-lh-095 col-10 ">{{ event.studio-name | upcase }}</p>
+            <div class="mt-4 mb-5">
+              <p class="d-inline j-bg-layer j-vw-035 j-fw-600 meccano"> {% include dot.html %} <span class="inner"> {{ event.studio-place | upcase }} </span>{% include dot.html %} </p>
+            </div>
+            <p class="m-0 j-fs-3rem j-vw-115 j-fw-700 color-one j-lh-095 col-10 ">{{ event.scholar-name | upcase }}</p>
+            <div class="mt-4 mb-4">
+              <p class="d-inline j-bg-layer j-vw-035 j-fw-600 meccano"> {% include dot.html %} <span class="inner"> {{ event.scholar-place | upcase }} </span>{% include dot.html %} </p>
+            </div>
+          </div>
+          <div class="offset-8 pe-2">
+            <a href="/events/{{event.country | downcase}}"> <img src="/res/freccia-meccano.svg" alt="freccia"> </a>
+          </div>
+
+
+
+        </div>
+        {% endfor %}
+
+      </div>
+
+    </div>
+  </section>
+
+  {% include footer.html %}
+
+  {% include scripts-after.html %}
 </body>
 
 </html>

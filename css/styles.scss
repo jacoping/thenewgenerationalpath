@@ -1,12 +1,7 @@
 ---
 ---
 
-
 /* FONTS */
-html {
-  font-family: 'neue-haas-grotesk-display', 'Roboto', sans-serif;
-}
-
 
 /* LAYOUT */
 .j-container-fluid {
@@ -15,100 +10,182 @@ html {
 
 :root {
   --swiper-theme-color: rgb(242,130,0);
+  --bs-font-sans-serif: 'neue-haas-grotesk-display', serif;
+}
+
+.j-outline-none {
+  border: none;
+  outline: none;
 }
 
 .j-filetto {
   display: inline-block;
-  border-bottom: .30em solid var(--bs-dark);
+  border-bottom: 0.30em solid var(--bs-dark);
 }
 
-.j-bg-orange-extralight {
-  background-color: rgb(242,225,206);
+.meccano {
+  border-radius: 50rem!important;
+  padding: .6em .8em;
 }
 
-.j-bg-orange-light {
-  background-color: rgb(242,208,169);
+.meccano svg {
+  vertical-align: baseline;
+  margin-bottom: -.05em;
 }
 
-.j-bg-orange {
-  background-color: rgb(242,186,121);
+.meccano .inner {
+  padding: 0 .8em;
 }
 
-.j-bg-orange-dark {
-  background-color: rgb(242,130,0);
-}
 
-.j-orange-light {
-  color: rgb(242,208,269);
-}
+/* COLORS */
+
+$orange: rgb(242,130,0);
+$dark: #393939;
 
 .j-orange {
-  color: rgb(242,186,121);
+  color: $orange;
+}
+.j-bg-orange {
+  background-color: $orange;
 }
 
-.j-orange-dark {
-  color: rgb(242,130,0);
+.j-bg-layer {
+  background-color: rgba(255, 255, 255, .7)
 }
 
-.j-border-darkorange-2px {
-  border: 2px solid rgb(242,130,0);
+.card-orange {
+  background-color: $orange;
+  .color-bg {
+    color: $orange;
+  }
+  .color-one {
+    color: white;
+  }
+  .color-two {
+    color: $dark;
+  }
 }
 
-.j-border-radius-20 {
-  border-radius: 20px;
+.card-dark {
+  background-color: $dark;
+  .color-bg {
+    color: $dark;
+  }
+  .color-one {
+    color: $orange;
+  }
+  .color-two {
+    color: white;
+  }
 }
+
+
+
+
 
 .j-fw-100 {
   font-weight: 100;
 }
+
 .j-fw-300 {
   font-weight: 300;
 }
+
 .j-fw-400 {
   font-weight: 400;
 }
+
 .j-fw-500 {
   font-weight: 500;
 }
+
+.j-fw-600 {
+  font-weight: 600;
+}
+
 .j-fw-700 {
   font-weight: 700;
 }
+
 .j-fw-900 {
   font-weight: 900;
 }
 
-.j-04vw {
-  font-size: 04vw
-}
 
-.j-05vw {
-  font-size: 05vw
-}
 
-.j-06vw {
-  font-size: 06vw
-}
-
-.j-07vw {
-  font-size: 07vw
-}
-
-.j-08vw {
-  font-size: 08vw
-}
-
-.j-09vw {
-  font-size: 09vw
-}
-
-.j-10vw {
-  font-size: 10vw
-}
-
-.j-11vw {
-  font-size: 11vw
-}
 
 .j-lh-08 {
-  line-height: 0.8
+  line-height: 0.8;
+}
+
+.j-lh-09 {
+  line-height: 0.9;
+}
+
+.j-lh-095 {
+  line-height: 0.95;
+}
+
+
+/* MOBILE ONLY */
+
+.j-fs-1rem {
+  font-size: 1rem;
+}
+.j-fs-2rem {
+  font-size: 2rem;
+}
+.j-fs-3rem {
+  font-size: 3rem;
+}
+
+@media (max-width: 991.98px) {
+  .j-vw-02 {
+    font-size: 2vw;
+  }
+
+  .j-vw-03vw {
+    font-size: 3vw;
+  }
+
+  .j-vw-035 {
+    font-size: 3.5vw;
+  }
+
+  .j-vw-04 {
+    font-size: 4vw;
+  }
+
+  .j-vw-05 {
+    font-size: 5vw;
+  }
+
+  .j-vw-06 {
+    font-size: 6vw;
+  }
+
+  .j-vw-07 {
+    font-size: 7vw;
+  }
+
+  .j-vw-08 {
+    font-size: 8vw;
+  }
+
+  .j-vw-09 {
+    font-size: 9vw;
+  }
+
+  .j-vw-10 {
+    font-size: 10vw;
+  }
+
+  .j-vw-11 {
+    font-size: 11vw;
+  }
+
+  .j-vw-115 {
+    font-size: 11.5vw;
+  }
 }
