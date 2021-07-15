@@ -1,7 +1,7 @@
 ---
 layout: home
 language: eng
-title: Home
+title: The New Generational Paths / Seminar Series
 ---
 
 A New Generation of Urbanistic Projects is emerging from the convergence of architecture, landscape and planning as fields of knowledge and practice.
