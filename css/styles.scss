@@ -80,6 +80,16 @@
   line-height: 0.95;
 }
 
+.j-fs-085em {
+  font-size: 0.85em;
+}
+
+.j-fs-275em {
+  font-size: 2.75em;
+}
+
+
+
 
 
 .j-fs-02vw {
@@ -96,6 +106,10 @@
 
 .j-fs-04vw {
   font-size: 4vw;
+}
+
+.j-fs-0425vw {
+  font-size: 4.25vw;
 }
 
 .j-fs-05vw {
@@ -130,6 +144,20 @@
   font-size: 11.5vw;
 }
 
+@media (min-width: 575.98px) {
+  .j-fs-sm-1rem {
+    font-size: 1rem;
+  }
+
+  .j-fs-sm-2rem {
+    font-size: 2rem;
+  }
+
+  .j-fs-sm-3rem {
+    font-size: 3rem;
+  }
+}
+
 @media (min-width: 991.98px) {
   .j-fs-lg-1rem {
     font-size: 1rem;
@@ -143,6 +171,9 @@
     font-size: 3rem;
   }
 }
+
+
+
 
 
 
@@ -205,11 +236,37 @@ $dark: #393939;
   }
 }
 
+@media (min-width: 575.98px) {
+  .card-sm-orange {
+    background-color: $orange;
+    .color-bg {
+      color: $orange;
+    }
+    .color-one {
+      color: white;
+    }
+    .color-two {
+      color: $dark;
+    }
+  }
+
+  .card-sm-dark {
+    background-color: $dark;
+    .color-bg {
+      color: $dark;
+    }
+    .color-one {
+      color: $orange;
+    }
+    .color-two {
+      color: white;
+    }
+  }
+}
+
 @media (min-width: 991.98px) {
   .card-lg-orange {
     background-color: $orange;
-    border: 10px solid white;
-    margin-bottom: 50px;
     .color-bg {
       color: $orange;
     }
@@ -223,8 +280,6 @@ $dark: #393939;
 
   .card-lg-dark {
     background-color: $dark;
-    border: 10px solid white;
-    margin-top: 50px;
     .color-bg {
       color: $dark;
     }
@@ -236,6 +291,13 @@ $dark: #393939;
     }
   }
 }
+
+@media (min-width: 991.98px) {
+  .j-lg-border-10-white {
+    border: 10px solid white;
+  }
+}
+
 
 .j-arrow {
   padding-right: 4vw;
