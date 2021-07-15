@@ -1,0 +1,4 @@
+---
+title: Spain
+layout: events
+---

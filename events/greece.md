@@ -1,0 +1,4 @@
+---
+title: Greece
+layout: events
+---

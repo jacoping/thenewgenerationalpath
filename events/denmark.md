@@ -1,0 +1,4 @@
+---
+title: Denmark
+layout: events
+---
