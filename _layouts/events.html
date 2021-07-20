@@ -7,25 +7,46 @@
 
 {% include head.html %}
 
+<style>
+.mobile-brand {
+  color: white !important;
+}
+</style>
 
-<body class="j-bg-orange">
+
+<body class="j-bg-dark page-event j-fs-0425vw j-fs-sm-1rem">
   {% include header.html %}
 
-  <div class="container" style="margin-top: 150px">
 
-    <p>SEMINAR SERIES</p>
-    <h1>{{ page.title | upcase }}</h1>
-    <p class="m-0 mt-2 color-two"> {{event.date | date: "%d"}} {{event.date | date: "%B" | upcase}} {{event.date | date: "%Y"}} <br> {{event.time}}</p>
+  <div class="container-lg offset-md-2 col-md-8 offset-lg-3 col-lg-6">
 
+    <div class="text-end pb-5">
+      <div class="">
+        <h1 class="j-fs-300em j-fw-400 j-orange j-lh-09">SEMINAR<br>SERIES<br><span class="j-fw-600">{{ page.title | upcase }}</span></h1>
+        <p class="j-fs-120em m-0 mt-2 text-white lh-1"> {{page.date | date: "%d"}} {{page.date | date: "%B" | upcase}} {{page.date | date: "%Y"}} <br> {{page.time}}</p>
+        <div class="mt-2 j-fs-200em">
+          <a class="link-light" href="{{ page.link }}"><span class="j-fw-900 j-lh-09"> watch online </span> {% include link-icon.html %} </a>
+        </div>
+      </div>
+    </div>
 
-    <div class="markdown">
+    <div class="markdown col-10 col-lg-12 j-fs-120em j-orange">
       {{content}}
     </div>
+
+    <!--
+    <div content="arrow" class="offset-6" style="position: relative;">
+      <a href="{{ page.link }}">
+        <img data-pin-nopin="true" src="/res/freccia-meccano.svg" alt="freccia" style="width: 8.5em; margin-right: .3em;">
+        <span class="text-white text-decoration-none j-fw-900 j-lh-09" style="position: absolute; top: 5em; left: 8em;"> watch<br>online </span>
+      </a>
+    </div>
+    -->
 
   </div>
 
 
-
+  {% include footer.html %}
 
   {% include scripts-after.html %}
 </body>

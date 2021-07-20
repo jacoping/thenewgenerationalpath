@@ -1,0 +1,12 @@
+<div content="speaker data" class="border-top border-orange pt-2" style="margin-top: 6em">
+
+  <div class="j-fs-085em">
+    <div class="j-fs-120em">
+      {{ include.type | upcase }}
+    </div>
+    <p class="m-0 j-fs-275em j-fw-700 j-lh-095 col-8 ">{{ include.name | upcase }}</p>
+    <div class="mt-4 mb-5">
+      <p class="d-inline j-bg-layer meccano j-fs-085em j-fw-600 j-dark"> {% include dot.html %} <span class="inner text-dark"> {{ include.place | upcase }} </span>{% include dot.html %} </p>
+    </div>
+  </div>
+</div>

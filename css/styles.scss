@@ -64,17 +64,15 @@
 
 
 
-
-/* FONTS */
-
 /* LAYOUT */
-.j-container-fluid {
-  max-width: 1000px;
-}
 
 :root {
   --swiper-theme-color: rgb(242,130,0);
   --bs-font-sans-serif: 'neue-haas-grotesk-display', serif;
+}
+
+html, body {
+  isolation: isolate;
 }
 
 /* GENERALI */
@@ -154,13 +152,28 @@
   line-height: 0.95;
 }
 
+
+
 .j-fs-085em {
   font-size: 0.85em;
+}
+
+.j-fs-120em {
+  font-size: 1.20em;
+}
+
+.j-fs-200em {
+  font-size: 2.00em;
 }
 
 .j-fs-275em {
   font-size: 2.75em;
 }
+
+.j-fs-300em {
+  font-size: 3.00em;
+}
+
 
 
 
@@ -267,6 +280,31 @@
   padding: 0 .8em;
 }
 
+.page-event .markdown {
+  a, a:active, a:visited, a:hover {
+    color: white;
+    font-weight: 500;
+  }
+}
+
+.long-arrow {
+  position: absolute;
+  top: 15em;
+  left: 2em;
+}
+
+@media (min-width: 991.98px) {
+  .long-arrow {
+    position: relative;
+    top: 0em;
+    left: 0em;
+  }
+}
+
+.home-page .markdown p {
+  padding-right: 1em;
+}
+
 
 /* COLORS */
 
@@ -276,12 +314,25 @@ $dark: #393939;
 .j-orange {
   color: $orange;
 }
+
+.j-dark {
+  color: $dark;
+}
+
 .j-bg-orange {
   background-color: $orange;
 }
 
+.j-bg-dark {
+  background-color: $dark;
+}
+
 .j-bg-layer {
   background-color: rgba(255, 255, 255, .7)
+}
+
+.border-orange {
+    border-color: $orange !important;
 }
 
 .card-orange {

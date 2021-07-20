@@ -1,30 +1,31 @@
 <!-- DESKTOP NAV -->
 
-<nav class="navbar d-none d-lg-flex navbar-expand-lg navbar-light fixed-top j-bg-layer" style="box-shadow: 0 1px 5px white; backdrop-filter: blur(1px);">
+<nav class="navbar d-none d-lg-flex navbar-expand-lg navbar-light fixed-top bg-white">
   <div class="container-lg">
     <a class="navbar-brand" href="/">
-      URBANISTIC PROJECTS THE NEW GENERATIONAL PAHTS
+      <b>URBANISTIC PROJECTS</b> NEW GENERATIONAL PAHTS
     </a>
     <div class=""">
-      <ul class=" navbar-nav ms-auto mb-2 mb-lg-0">
+      <ul class=" navbar-nav ms-auto mb-2 mb-lg-0 j-fw-700 text-dark">
 
-      <li class="nav-item dropdown">
+      <li class="nav-item dropdown px-2">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
           program
         </a>
-        <ul class="dropdown-menu">
-          {% for event in site.data.events %}
-          <li><a class="dropdown-item" href="/events/{{event.country | downcase | slugify}}">{{event.country | downcase}}</a></li>
+        <ul class="dropdown-menu border-0">
+          {% assign events = site.pages | where: 'dir','/events/' |  sort: "date" %}
+          {% for event in events %}
+          <li><a class="dropdown-item" href="/events/{{event.title | downcase | slugify}}">{{event.title | downcase}}</a></li>
           {% endfor %}
         </ul>
       </li>
-      <li class="nav-item">
+      <li class="nav-item px-2">
         <a class="nav-link" href="/about">about</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item px-2">
         <a class="nav-link" href="/final-event">final event</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item px-2">
         <a class="nav-link" href="/credits">credits</a>
       </li>
       </ul>
@@ -32,16 +33,19 @@
   </div>
 </nav>
 
+<div class="d-none d-lg-flex" style="margin-bottom: 150px;">
+</div>
+
 <!-- MOBILE MENU -->
 
-<div class="d-lg-none mt-3">
-  <div class="container d-flex">
-    <a class="navbar-brand" href="/">
-      <img src="/res/logo.svg" alt="logo" height="52px">
+<div class="d-lg-none pt-3" style="margin-bottom: 50px;">
+  <div class="container-lg d-flex">
+    <a class="text-dark fs-6 lh-1 text-decoration-none mobile-brand" href="/">
+      <b>URBANISTIC<br>PROJECTS</b> NEW<br> GENERATIONAL<br>PAHTS
     </a>
-    <div class="d-flex bg-light rounded-circle" style="width: 55px; height: 55px; position: fixed; top: 13px; right: 12px; mix-blend-mode: difference;">
+    <div class="d-flex rounded-circle bg-light" style="width: 55px; height: 55px; position: fixed; top: 13px; right: 12px; mix-blend-mode: difference;">
       <a data-bs-toggle="modal" href="#openMobileMenu" class="navbar-toggler border-0 j-outline-none" style="padding-top: 14px;">
-        <img src="/res/hamburger.svg" alt="hamburger" height="25px">
+        <img src="/res/hamburger.svg" alt="hamburger" height="25px" style="isolation: isolate;">
       </a>
     </div>
   </div>
@@ -63,8 +67,9 @@
           </li>
           <li class="">
             <ul class="list-unstyled">
-              {% for event in site.data.events %}
-              <li><a class="ps-3 j-fs-08vw j-fw-500 text-white text-decoration-none lh-1" href="/events/{{event.country | downcase | slugify}}">{{event.country | downcase}}</a></li>
+              {% assign events = site.pages | where: 'dir','/events/' |  sort: "date" %}
+              {% for event in events %}
+              <li><a class="ps-3 j-fs-08vw j-fw-500 text-white text-decoration-none lh-1" href="/events/{{event.title | downcase | slugify}}">{{event.title | downcase}}</a></li>
               {% endfor %}
             </ul>
           </li>
