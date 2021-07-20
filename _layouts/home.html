@@ -12,25 +12,27 @@
   {% include header.html %}
 
 
-  <div class="" style="margin-top: 90px">
+
+
+  <div class="" style="margin-top: 50px">
     &nbsp
   </div>
 
   <section content="intro" class="container-lg">
     <div class="row j-position-relative">
-      <div class="col-9 col-lg-5 j-orange j-fw-400 j-fs-07vw j-fs-lg-3rem j-lh-09" style="margin-bottom: 7em;">
-        {{content}}
-        <div class="long-arrow" style="position: absolute; top: 7em; left: 2em;">
+      <div class="col-10 col-lg-5 j-orange j-fs-07vw j-fs-lg-3rem j-lh-09" style="margin-bottom: 7em;">
+        <div class="long-arrow" style="position: absolute; top: 15em; left: 2em; z-index: -1">
           <img src="/res/freccia-lunga.svg" alt="long-arrow" style="width: 10em;">
-            <div class="j-lh-05" style="position: absolute; top: 19em; left: 9.5em;" >
-              <a class="text-dark j-fw-700 j-fs-05vw j-fs-lg-3rem text-decoration-none" href="/about">learn<br>more</a>
-            </div>
+          <div class="j-lh-05" style="position: absolute; top: 19em; left: 9.5em;">
+            <a class="text-dark j-fw-700 j-fs-05vw j-fs-lg-3rem text-decoration-none" href="/about">learn<br>more</a>
+          </div>
+        </div>
+        <div class="markdown j-fw-500">
+          {{content}}
         </div>
       </div>
     </div>
   </section>
-
-
 
 
   <section content="program" class="">
@@ -38,32 +40,36 @@
     <div class="container-lg">
       <div class="mt-5 row">
 
-        {% for event in site.data.events %}
-        <div class="p-4 j-fs-0425vw j-fs-sm-1rem j-fs-lg-1rem {% cycle "card-orange", "card-dark", "card-orange card-sm-dark card-lg-orange", "card-dark card-sm-orange card-lg-dark", "card-orange", "card-dark", "card-orange card-sm-dark card-lg-orange" %} col-sm-6 col-lg-4 j-lg-border-10-white">
+        {% assign events = site.pages | where: 'dir','/events/' |  sort: "date" %}
+        {% for event in events %}
+        <div
+          class="p-4 j-fs-0425vw j-fs-sm-1rem j-fs-lg-1rem {% cycle "card-orange", "card-dark", "card-orange card-sm-dark card-lg-orange", "card-dark card-sm-orange card-lg-dark", "card-orange", "card-dark", "card-orange card-sm-dark card-lg-orange" %} col-sm-6 col-lg-4 j-lg-border-10-white">
 
-          <div content="country and date" class="d-flex justify-content-end">
-            <div class="text-end j-fw-700 lh-1">
-              <p class="m-0 color-one">{{event.country | upcase}}</p>
-              <p class="m-0 mt-2 color-two"> {{event.date | date: "%d"}} {{event.date | date: "%B" | upcase}} {{event.date | date: "%Y"}} <br> {{event.time}}</p>
+          <div class="d-flex flex-column" style="height: 35em;">
+
+            <div content="country and date" class="d-flex justify-content-end">
+              <div class="text-end j-fw-700 lh-1">
+                <p class="m-0 color-one">{{event.title | upcase}}</p>
+                <p class="m-0 mt-2 color-two"> {{event.date | date: "%d"}} {{event.date | date: "%B" | upcase}} {{event.date | date: "%Y"}} <br> {{event.time}}</p>
+              </div>
+            </div>
+
+            <div content="guests" class="mt-3">
+              <p class="m-0 j-fs-275em j-fw-700 color-one j-lh-095 col-8 ">{{ event.studio-name | upcase }}</p>
+              <div class="mt-4 mb-5">
+                <p class="d-inline j-bg-layer meccano j-fs-085em j-fw-600 "> {% include dot.html %} <span class="inner"> {{ event.studio-place | upcase }} </span>{% include dot.html %} </p>
+              </div>
+              <p class="m-0 j-fs-275em j-fw-700 color-one j-lh-095 col-8 ">{{ event.scholar-name | upcase }}</p>
+              <div class="mt-4 mb-4">
+                <p class="d-inline j-bg-layer meccano j-fs-085em  j-fw-600 meccano"> {% include dot.html %} <span class="inner"> {{ event.scholar-place | upcase }} </span>{% include dot.html %} </p>
+              </div>
+            </div>
+
+            <div content="arrow" class="align-self-end mt-auto">
+              <a href="/events/{{event.title | downcase}}"> <img src="/res/freccia-meccano.svg" alt="freccia" style="width: 8.5em; margin-right: .3em;"> </a>
             </div>
           </div>
 
-          <div content="guests" class="mt-3">
-            <p class="m-0 j-fs-275em j-fw-700 color-one j-lh-095 col-10 ">{{ event.studio-name | upcase }}</p>
-            <div class="mt-4 mb-5">
-              <p class="d-inline j-bg-layer meccano j-fs-085em j-fw-600 "> {% include dot.html %} <span class="inner"> {{ event.studio-place | upcase }} </span>{% include dot.html %} </p>
-            </div>
-            <p class="m-0 j-fs-275em j-fw-700 color-one j-lh-095 col-10 ">{{ event.scholar-name | upcase }}</p>
-            <div class="mt-4 mb-4">
-              <p class="d-inline j-bg-layer meccano j-fs-085em  j-fw-600 meccano"> {% include dot.html %} <span class="inner"> {{ event.scholar-place | upcase }} </span>{% include dot.html %} </p>
-            </div>
-          </div>
-
-          <div content="arrow" class="d-flex justify-content-end">
-            <div class="">
-              <a href="/events/{{event.country | downcase}}"> <img src="/res/freccia-meccano.svg" alt="freccia" style="width: 10em; margin-right: .3em;"> </a>
-            </div>
-          </div>
 
         </div>
         {% endfor %}
@@ -72,6 +78,8 @@
 
     </div>
   </section>
+
+  {% include footer.html %}
 
   {% include scripts-after.html %}
 </body>

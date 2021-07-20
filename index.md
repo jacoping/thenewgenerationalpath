@@ -4,6 +4,6 @@ language: eng
 title: The New Generational Paths / Seminar Series
 ---
 
-A New Generation of Urbanistic Projects is emerging from the convergence of architecture, landscape and planning as fields of knowledge and practice.
+Urbanism as spatial-oriented professional practice and theoretical reflection has changed. New ways of conceptualizing, describing and modifying EU cities and territories result from transformed urban conditions, material and immaterial. As a consequence a New Generation of Urbanistic Projects are emerging.
 
-Urbanistic Projects / New Generational Paths is a seminar series organized as a dialogue between a Scholar and a young practitioner (Office) whose activity focuses on the same EU territory, with the aim of revealing the interaction between 'ways of knowing' is linked to 'ways of design', namely theory and praxis, in the contemporary urban and territorial design.
+The seminar series *Urbanistic Projects / New&nbsp;Generational Paths*{:.u} scans the depth of the multilayered field of urbanism to detect elements of continuity and novelty. Organized as a dialogue between a Scholar and a young Practitioner (Office) whose activity focuses on the same EU territory, the seminar aims at revealing issues, tools and alliances that are specific and shared by contemporary EU territories.

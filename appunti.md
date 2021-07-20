@@ -1,13 +1,24 @@
 # BREAKPOINTS
 
+
+*Small sm*
+Viene usato da
+- passa da font fluido a font normale sulle schede di home
+
+*Large lg	≥992px*
+Viene usato da
+- navbar (sparisce navbar mobile appare navbar desktop)
+
+
+COLONNE HOME
 - da sm card su due colonne
 - da lg card su tre colonne
-
+- sia su sm che su lg cambiano i colori home con classi fatte appositamente
 
 
 # TODO
 
-- header piccolo quando scorre
+- mobile: mettere link su tutta la card dell'evento
 
-- gestire formati orizzontali a partire dall'iphone landscape (sui formati orizzontali deve andare su due o tre righe)
-  - mettere container fluid per md e lg
+PAGINE INTERNE:
+capire se è il caso di trasferire i dati sulle pagine invece che dentro "_data"
