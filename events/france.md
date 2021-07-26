@@ -3,8 +3,8 @@ layout: events
 
 title:         France
 link:          meet.gogle.com/eji-efe-asd
-date:          2021-10-19
-time:          16:30-18:30
+date:          2021-09-28
+time:          17:00-19:00
 studio-name:   "Altitude\u00A035"
 studio-place:  Paris
 scholar-name:  Ido Avissar
