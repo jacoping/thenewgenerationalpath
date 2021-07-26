@@ -3,8 +3,8 @@ layout: events
 
 title:         Spain
 link:          meet.gogle.com/eji-efe-asd
-date:          2021-09-28
-time:          16:30-18:30
+date:          2021-10-19
+time:          17:00-19:00
 studio-name:   JPAM
 studio-place:  Barcelona
 scholar-name:  Alvaro Clua Uceda
