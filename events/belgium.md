@@ -18,6 +18,7 @@ scholar-place: UGent
 PLUSOFFICE (Belgium) was founded by Nathan Ooms and Ward Verbakel in Bruxelles, following their competition entry for 30 serviceflats in Lommel, 2006. Ten years later, PlusOffice has grown into a design practice of twelve employees and a remarkably diverse portfolio with an emphasis on public buildings and urban design. As ambitious designers, they combine the disciplines of architecture, urban planning and landscape design; they seek an investigative approach to design, every project is an opportunity to re-examine and question existing notions of architecture, public space and natural systems. In their projects it’s possible to find a valorisation of the realtion between nature and urbanism, both in architetcture and urbanism.
 
 [+ info](https://www.plusoffice.eu/)
+[website](https://www.google.com/)
 
 
 {% capture name %}{{page.scholar-name}}{% endcapture %}
