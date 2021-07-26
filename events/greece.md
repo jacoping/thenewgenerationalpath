@@ -15,7 +15,7 @@ scholar-place: University of Thessaly
 {% capture place %}{{page.studio-place}}{% endcapture %}
 {% include data.html type="office" name=name place=place %}
 
-POINT SUPREME (Greece) was founded in Rotterdam in 2008 and is now based in Athens. The two founders, Kostantinos Pantazis and Marianna Rentzou, have work with several offices, both in the Netherlands, where collaborated with MVRDV and OMA-Rem Koolhaas, and in Japan an Greece. In their works, Point Supreme Architects integrates research, architecture, urbanism, landscape and urban design.
+POINT SUPREME was founded in Rotterdam in 2008 and is now based in Athens. The two founders, Kostantinos Pantazis and Marianna Rentzou, have work with several offices, both in the Netherlands, where collaborated with MVRDV and OMA-Rem Koolhaas, and in Japan an Greece. In their works, Point Supreme Architects integrates research, architecture, urbanism, landscape and urban design.
 
 [+ info](http://www.pointsupreme.com/content/)
 
