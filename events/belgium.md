@@ -4,7 +4,7 @@ layout: events
 title:         Belgium
 link:          meet.gogle.com/eji-efe-asd
 date:          2021-11-02
-time:          16:30-18:30
+time:          17:00-19:00
 studio-name:   Plusoffice
 studio-place:  Bruxelles
 scholar-name:  Joachim Declerck
