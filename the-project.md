@@ -1,6 +1,6 @@
 ---
 layout: pages
-title: About the project
+title: The project
 ---
 
 
