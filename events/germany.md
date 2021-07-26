@@ -4,7 +4,7 @@ layout: events
 title:         Germany
 link:          meet.gogle.com/eji-efe-asd
 date:          2021-10-05
-time:          16:30-18:30
+time:          17:00-19:00
 studio-name:   Tele Internet Café
 studio-place:  Berlin
 scholar-name:  Sabine Muller
