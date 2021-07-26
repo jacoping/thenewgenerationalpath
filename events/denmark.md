@@ -4,7 +4,7 @@ layout: events
 title:         Denmark
 link:          meet.gogle.com/eji-efe-asd
 date:          2021-10-12
-time:          16:30-18:30
+time:          17:00-19:00
 studio-name:   Sted
 studio-place:  Copenhagen
 scholar-name:  Ellen Brae
