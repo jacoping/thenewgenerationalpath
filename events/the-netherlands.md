@@ -4,7 +4,7 @@ layout: events
 title:         The Netherlands
 link:          meet.gogle.com/eji-efe-asd
 date:          2021-11-09
-time:          16:30-18:30
+time:          17:00-19:00
 studio-name:   DROM
 studio-place:  Rotterdam
 scholar-name:  Taneha Kuzniecow Bacchin
