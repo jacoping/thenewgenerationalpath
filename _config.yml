@@ -3,9 +3,9 @@ title: Urbanistic Projects
 # va in html meta description
 description: A seminar series on emerging design practices and culture in European cities.
 # va nella navigazione
-sitename: sitename
+sitename: Urbanistic Projects
 # accessibile con site.url
-url: https://www.example.com
+url: https://urbanisticprojects.eu
 
 kramdown:
   hard_wrap: true
