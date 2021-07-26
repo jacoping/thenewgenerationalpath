@@ -15,7 +15,7 @@ scholar-place: TU Delft
 {% capture place %}{{page.studio-place}}{% endcapture %}
 {% include data.html type="office" name=name place=place %}
 
-ROM (Netherlands) was founded in Rotterdam by architects Timur Karimullin, Sofia Koutsenko and Timur Shabaev, and it operates out of city on projects around the world. As a collective of diverse thinkers with experience ranging from exhibitions and architecture to masterplans, they engage each new project with critical and analytical research and design tools. They believe in the value of good design as process, striving to achieve optimal solutions with limited resources and they are interested in the topics of productive environments, new models for cities and materialization of architecture.
+DROM was founded in Rotterdam by architects Timur Karimullin, Sofia Koutsenko and Timur Shabaev, and it operates out of city on projects around the world. As a collective of diverse thinkers with experience ranging from exhibitions and architecture to masterplans, they engage each new project with critical and analytical research and design tools. They believe in the value of good design as process, striving to achieve optimal solutions with limited resources and they are interested in the topics of productive environments, new models for cities and materialization of architecture.
 
 [+ info](https://d-r-o-m.com/about/)
 
