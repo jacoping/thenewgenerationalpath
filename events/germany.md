@@ -15,7 +15,7 @@ scholar-place: AHO Oslo
 {% capture place %}{{page.studio-place}}{% endcapture %}
 {% include data.html type="office" name=name place=place %}
 
-TELE INTERNET CAFE (Germany) was founded in Berlin in 2011; the office pursues a multi-perspective approach and the principle of shared authorship. The works of Marius Gantert, Andreas Krauth, Urs Kumberger and Verena Schmidt move at the interface of architecture and urban planning. They are characterized by process-like development strategies, cooperative approaches and an experimental handling of building and open space typologies. The examination of the place and the situational forms the starting point for the search for new, open forms of the city.
+TELE INTERNET CAFE was founded in Berlin in 2011; the office pursues a multi-perspective approach and the principle of shared authorship. The works of Marius Gantert, Andreas Krauth, Urs Kumberger and Verena Schmidt move at the interface of architecture and urban planning. They are characterized by process-like development strategies, cooperative approaches and an experimental handling of building and open space typologies. The examination of the place and the situational forms the starting point for the search for new, open forms of the city.
 
 [+ info](http://teleinternetcafe.de/)
 
