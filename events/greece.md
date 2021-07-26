@@ -4,7 +4,7 @@ layout: events
 title:         Greece
 link:          meet.gogle.com/eji-efe-asd
 date:          2021-10-26
-time:          16:30-18:30
+time:          17:00-19:00
 studio-name:   Point Supreme
 studio-place:  Athens
 scholar-name:  Fabiano Micocci
