@@ -7,7 +7,7 @@ date:          2021-10-19
 time:          17:00-19:00
 studio-name:   JPAM
 studio-place:  Barcelona
-scholar-name:  Alvaro Clua Uceda
+scholar-name:  Álvaro Clua 
 scholar-place: UPC Barcelona
 
 ---
@@ -23,6 +23,6 @@ JPAM is an architecture and urban design studio based in Barcelona founded by Ma
 {% capture place %}{{page.scholar-place}}{% endcapture %}
 {% include data.html type="scholar" name=name place=place %}
 
-Alvaro Clua  is an architect (2012) and PhD in Urbanism (Polytechnic University of Catalonia – 2017), Master in Urban Research (UPC-2014), Researcher at the Laboratori d’Urbanisme de Barcelona (LUB) and Adjunct Lecturer of Urban Design at Barcelona School of Architecture since 2013. He has collaborated with several architectural offices since 2006, and has received numerous awards and university scholarships (Caixa Manresa 2006, LUB Collaboration Scholarship 2011, FPI-UPC Scholarship 2012, FI-DGR 2014, FPU 2015-2017, La Caixa 2017, Erasmus + Doctorate). Nowadays he combines teaching in urban design, research on mapping and urban infrastructures; and professional practice as a freelance and for the BitHabitat Foundation, Ajuntament de Barcelona.
+PhD Architect, Lecturer in Urban Design at the Barcelona School of Architecture (Polytechnic University of Catalonia UPC), and member of the Laboratori d’Urbanisme de Barcelona (LUB). Visiting researcher at the Royal Danish Academy of Fine Arts (2016), Space Syntax Ltd. (2017) and PUC- Chile (2017). Collaborator of Bit Habitat Foundation (Barcelona City Council) from 2019 to 2021. He is the author of several essays on infrastructural landscapes, urban projects, city mapping, and urban history. Nowadays, he combines teaching, research on urban design and professional practice in architecture and urbanism.
 
 [+ info](http://alvaroclua.com/about/)
