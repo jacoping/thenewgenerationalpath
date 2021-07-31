@@ -15,11 +15,7 @@ scholar-place: AHO Oslo
 {% capture place %}{{page.studio-place}}{% endcapture %}
 {% include data.html type="office" name=name place=place %}
 
-Teleinternetcafe Architektur und Urbanismus (founded in Berlin in 2011) is a Berlin-based practice that operates at the
-interface of architecture and urban design. Teleinternetcafe’s work is characterized by process-oriented development
-strategies, cooperative approaches and an experimental approach to building and landscape typologies. An intensive
-engagement with the place and its situational qualities provides the starting point for the search for new and open forms of
-the city.
+Teleinternetcafe Architektur und Urbanismus (founded in Berlin in 2011) is a Berlin-based practice that operates at the interface of architecture and urban design. Teleinternetcafe’s work is characterized by process-oriented development strategies, cooperative approaches and an experimental approach to building and landscape typologies. An intensive engagement with the place and its situational qualities provides the starting point for the search for new and open forms of the city.
 
 [+ info](http://teleinternetcafe.de/)
 
