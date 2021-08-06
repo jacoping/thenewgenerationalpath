@@ -15,7 +15,7 @@ title: Credits
 **Fabiano Micocci** (Univ. of Thessaly, Volos)
 **Alvaro Clua Uceda** (UPC Barcelona)
 **Ido Avissar** (Paris-est)
-**Michelle Provoost, Wouter Vanstiphout** (INTI, Crimsons, Independent School for the City Rotterdam, TU Delft) to be confirmed
+**Michelle Provoost, Wouter Vanstiphout** (INTI, Crimsons, Independent School for the City Rotterdam, TU Delft)
 **Taneha Kuzniecow Bacchin** (TU Delft)
 **Ellen Braae** (University of Copenhagen)
 
