@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+{% if page.language == "eng" %}
+<html lang="en" dir="ltr">
+{% else %}
+<html lang="it" dir="ltr">
+{% endif %}
+
+{% include head.html %}
+
+<body class="home-page">
+
+  <div class="">
+  {% include header.html %}
+
+    <section content="intro" class="container-lg">
+      <div class="row j-position-relative">
+        <div class="col-10 j-orange j-fs-07vw j-fs-lg-2rem j-lh-09" style="margin-bottom: 7em;">
+          <div class="markdown j-fw-500 d-lg-flex">
+            {{content}}
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section content="program" class="container j-bg-dark j-fs-0425vw j-fs-sm-1rem">
+      <div class="py-5 text-end j-lh-09 j-orange">
+        <div class="m-0 j-fs-400em j-fw-100">SEMINAR &nbsp;</div>
+        <div class="m-0 j-fs-400em j-fw-400">SERIES</div>
+      </div>
+
+      <div class="row">
+
+        {% assign events = site.pages | where: 'dir','/events/' |  sort: "date" %}
+        {% for event in events %}
+        <div content="event" class="col-sm-6 col-lg-4">
+
+          <div class="d-flex flex-column border-top j-border-orange j-border-10 pt-4 pb-5" xstyle="height: 28em;">
+
+            <div content="country and date" class="mb-4">
+              <p class="j-fs-230em j-fw-700 m-0 j-lh-085 j-orange col-8">{{event.title | upcase}}</p>
+              <p class="j-fs-120em j-fw-500 m-0 mt-2 lh-1 text-white"> {{event.date | date: "%d"}} {{event.date | date: "%B" | upcase}} {{event.date | date: "%Y"}} <br> {{event.time}}</p>
+            </div>
+
+            <div content="guests and arrow" class="mt-auto d-flex justify-content-between">
+
+              <div content="guests" class="mt-4">
+                <p class="m-0 j-fs-180em j-fw-700 j-orange j-lh-095 col-8 ">{{ event.studio-name | upcase }}</p>
+                <div class="mt-2">
+                  <p class="d-inline j-bg-layer meccano j-fs-070em j-fw-600 j-dark  "> {% include dot.html %} <span class="inner"> {{ event.studio-place | upcase }} </span>{% include dot.html %} </p>
+                </div>
+                <div class="j-fs-350em j-fw-700 text-white lh-1">
+                  +
+                </div>
+                <p class="m-0 j-fs-180em j-fw-700 j-orange j-lh-095 col-8 ">{{ event.scholar-name | upcase }}</p>
+                <div class="mt-2">
+                  <p class="d-inline j-bg-layer meccano j-fs-070em  j-fw-600 j-dark"> {% include dot.html %} <span class="inner"> {{ event.scholar-place | upcase }} </span>{% include dot.html %} </p>
+                </div>
+              </div>
+
+              <div content="arrow" class="align-self-end">
+                <a href="/events/{{event.title | downcase | slugify}}" class="text-decoration-none">
+                  <div class="d-flex flex-column">
+                    <div class="text-white text-end j-fs-130em j-fw-900 j-lh-08 mb-3"> go to <br> seminar </div>
+                    <img data-pin-nopin="true" src="/res/freccia-meccano-45.svg" alt="go to event" style="width: 5.5em;">
+                  </div>
+                </a>
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+        {% endfor %}
+
+      </div>
+
+    </section>
+
+    {% include footer.html %}
+  </div>
+
+  {% include scripts-after.html %}
+</body>
+
+</html>

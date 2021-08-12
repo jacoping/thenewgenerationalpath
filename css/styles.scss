@@ -140,8 +140,13 @@ html, body {
 .j-lh-05 {
   line-height: 0.5;
 }
+
 .j-lh-08 {
   line-height: 0.8;
+}
+
+.j-lh-085 {
+  line-height: 0.85;
 }
 
 .j-lh-09 {
@@ -153,6 +158,9 @@ html, body {
 }
 
 
+.j-fs-070em {
+  font-size: 0.70em;
+}
 
 .j-fs-085em {
   font-size: 0.85em;
@@ -162,8 +170,20 @@ html, body {
   font-size: 1.20em;
 }
 
+.j-fs-130em {
+  font-size: 1.30em;
+}
+
+.j-fs-180em {
+  font-size: 1.80em;
+}
+
 .j-fs-200em {
   font-size: 2.00em;
+}
+
+.j-fs-230em {
+  font-size: 2.30em;
 }
 
 .j-fs-275em {
@@ -172,6 +192,14 @@ html, body {
 
 .j-fs-300em {
   font-size: 3.00em;
+}
+
+.j-fs-350em {
+  font-size: 3.50em;
+}
+
+.j-fs-400em {
+  font-size: 4.00em;
 }
 
 
@@ -309,6 +337,8 @@ html, body {
 /* COLORS */
 
 $orange: rgb(242,130,0);
+$orange: #F28200;
+
 $dark: #393939;
 
 .j-orange {
@@ -331,9 +361,37 @@ $dark: #393939;
   background-color: rgba(255, 255, 255, .7)
 }
 
-.border-orange {
+.j-border-orange {
     border-color: $orange !important;
 }
+
+.j-border-10 {
+  border-width: 10px !important;
+}
+
+
+
+.j-arrow {
+  padding-right: 4vw;
+  @media (min-width: 991.98px) {
+    padding-right: 100px;
+  }
+
+  img {
+    width: 30vw;
+    @media (min-width: 991.98px) {
+      width: 120px;
+    }
+  }
+}
+
+
+
+
+
+
+
+// DA RIMUOVERE IN SEGUITO
 
 .card-orange {
   background-color: $orange;
@@ -420,20 +478,5 @@ $dark: #393939;
 @media (min-width: 991.98px) {
   .j-lg-border-10-white {
     border: 10px solid white;
-  }
-}
-
-
-.j-arrow {
-  padding-right: 4vw;
-  @media (min-width: 991.98px) {
-    padding-right: 100px;
-  }
-
-  img {
-    width: 30vw;
-    @media (min-width: 991.98px) {
-      width: 120px;
-    }
   }
 }
