@@ -23,19 +23,21 @@
     </section>
 
 
-    <section content="program" class="container j-bg-dark j-fs-0425vw j-fs-sm-1rem">
-      <div class="py-5 text-end j-lh-09 j-orange">
-        <div class="m-0 j-fs-400em j-fw-100">SEMINAR &nbsp;</div>
-        <div class="m-0 j-fs-400em j-fw-400">SERIES</div>
-      </div>
+    <section content="seminar series" class="j-bg-dark j-fs-0425vw j-fs-sm-1rem">
+      <div class="container-lg py-5">
+        <div class="row align-items-stretch">
 
-      <div class="row">
+
+        <div class="col-sm-6 col-lg-4 pb-5 text-end j-lh-09 j-orange">
+          <div class="m-0 j-fs-400em j-fw-100">SEMINAR &nbsp;</div>
+          <div class="m-0 j-fs-400em j-fw-400">SERIES</div>
+        </div>
 
         {% assign events = site.pages | where: 'dir','/events/' |  sort: "date" %}
         {% for event in events %}
-        <div content="event" class="col-sm-6 col-lg-4">
+        <div content="event" class="col-sm-6 col-lg-4 d-flex">
 
-          <div class="d-flex flex-column border-top j-border-orange j-border-10 pt-4 pb-5" xstyle="height: 28em;">
+          <div class="flex-fill d-flex flex-column border-top j-border-lg j-border-orange j-border-10 pt-4 pb-5 py-lg-5 px-lg-3 mb-lg-5">
 
             <div content="country and date" class="mb-4">
               <p class="j-fs-230em j-fw-700 m-0 j-lh-085 j-orange col-8">{{event.title | upcase}}</p>
@@ -76,7 +78,7 @@
         {% endfor %}
 
       </div>
-
+    </div>
     </section>
 
     {% include footer.html %}
