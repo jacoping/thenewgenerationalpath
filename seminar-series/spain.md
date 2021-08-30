@@ -1,6 +1,6 @@
 ---
-layout: events
-permalink: /events/spain
+layout: seminar-series
+permalink: /seminar-series/spain
 
 title:         Spain
 link:          meet.gogle.com/eji-efe-asd

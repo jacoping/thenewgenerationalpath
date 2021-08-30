@@ -1,6 +1,6 @@
 ---
-layout: events
-permalink: /events/belgium
+layout: seminar-series
+permalink: /seminar-series/belgium
 
 title:         Belgium
 link:          meet.gogle.com/eji-efe-asd

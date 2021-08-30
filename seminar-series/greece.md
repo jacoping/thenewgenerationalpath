@@ -1,6 +1,6 @@
 ---
-layout: events
-permalink: /events/greece
+layout: seminar-series
+permalink: /seminar-series/greece
 
 title:         Greece
 link:          meet.gogle.com/eji-efe-asd

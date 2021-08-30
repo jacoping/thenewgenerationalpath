@@ -1,6 +1,6 @@
 ---
-layout: events
-permalink: /events/germany
+layout: seminar-series
+permalink: /seminar-series/germany
 
 title:         Germany
 link:          meet.gogle.com/eji-efe-asd

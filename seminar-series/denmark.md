@@ -1,6 +1,6 @@
 ---
-layout: events
-permalink: /events/denmark
+layout: seminar-series
+permalink: /seminar-series/denmark
 
 title:         Denmark
 link:          meet.gogle.com/eji-efe-asd

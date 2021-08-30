@@ -15,9 +15,9 @@
       </li>
 
       <li class="nav-item dropdown px-2">
-        <a class="nav-link j-black-important j-hover-underline dropdown-toggle {% if page.url contains '/events/' %}j-underline{% endif %}" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"> seminar series </a>
+        <a class="nav-link j-black-important j-hover-underline dropdown-toggle {% if page.url contains '/seminar-series/' %}j-underline{% endif %}" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"> seminar series </a>
         <ul class="dropdown-menu border-0">
-          {% assign events = site.pages | where: 'dir','/events/' |  sort: "date" %}
+          {% assign events = site.pages | where: 'dir','/seminar-series/' |  sort: "date" %}
           {% for event in events %}
           {% assign theUrl = event.permalink %}
           <li><a class="dropdown-item {% if page.url == theUrl %}j-currentpage{% endif %}" href="{{theUrl}}">{{event.title | downcase}}</a></li>
@@ -83,9 +83,9 @@
           </li>
           <li class="">
             <ul class="list-unstyled">
-              {% assign events = site.pages | where: 'dir','/events/' |  sort: "date" %}
+              {% assign events = site.pages | where: 'dir','/seminar-series/' |  sort: "date" %}
               {% for event in events %}
-              <li><a class="ps-3 j-fs-08vw j-fw-500 text-white text-decoration-none lh-1" href="/events/{{event.title | downcase | slugify}}">{{event.title | downcase}}</a></li>
+              <li><a class="ps-3 j-fs-08vw j-fw-500 text-white text-decoration-none lh-1" href="{{ event.permalink }}">{{event.title | downcase}}</a></li>
               {% endfor %}
             </ul>
           </li>

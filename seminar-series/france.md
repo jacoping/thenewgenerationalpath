@@ -1,6 +1,6 @@
 ---
-layout: events
-permalink: /events/france
+layout: seminar-series
+permalink: /seminar-series/france
 
 title:         France
 link:          meet.gogle.com/eji-efe-asd

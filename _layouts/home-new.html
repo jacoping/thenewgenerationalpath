@@ -33,7 +33,7 @@
           <div class="m-0 j-fs-400em j-fw-400">SERIES</div>
         </div>
 
-        {% assign events = site.pages | where: 'dir','/events/' |  sort: "date" %}
+        {% assign events = site.pages | where: 'dir','/seminar-series/' |  sort: "date" %}
         {% for event in events %}
         <div content="event" class="col-sm-6 col-lg-4 d-flex">
 
@@ -61,7 +61,7 @@
               </div>
 
               <div content="arrow" class="align-self-end">
-                <a href="/events/{{event.title | downcase | slugify}}" class="text-decoration-none">
+                <a href="{{ event.permalink }}" class="text-decoration-none">
                   <div class="d-flex flex-column">
                     <div class="text-white text-end j-fs-130em j-fw-900 j-lh-08 mb-3"> go to <br> seminar </div>
                     <img data-pin-nopin="true" src="/res/freccia-meccano-45.svg" alt="go to event" style="width: 5.5em;">

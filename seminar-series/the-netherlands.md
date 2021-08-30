@@ -1,6 +1,6 @@
 ---
-layout: events
-permalink: /events/the-nederlands
+layout: seminar-series
+permalink: /seminar-series/the-nederlands
 
 title:         The Netherlands
 link:          meet.gogle.com/eji-efe-asd
