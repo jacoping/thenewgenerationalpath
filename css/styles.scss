@@ -85,6 +85,10 @@ html, body {
   }
 }
 
+.j-hover-underline:hover {
+  text-decoration: underline;
+}
+
 
 /* MARKDOWN CLASSES */
 
@@ -340,6 +344,10 @@ $orange: rgb(242,130,0);
 $orange: #F28200;
 
 $dark: #393939;
+
+.j-black-important {
+  color: black !important;
+}
 
 .j-orange {
   color: $orange;

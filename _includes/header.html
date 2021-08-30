@@ -6,12 +6,13 @@
       <b>URBANISTIC PROJECTS</b> NEW GENERATIONAL PATHS
     </a>
     <div class=""">
-      <ul class=" navbar-nav ms-auto mb-2 mb-lg-0 j-fw-700 text-dark">
+      <ul class=" navbar-nav ms-auto mb-2 mb-lg-0 j-fw-700">
 
+      <li class="nav-item px-2">
+        <a class="nav-link j-black-important j-hover-underline" href="/the-project"> the project </a>
+      </li>
       <li class="nav-item dropdown px-2">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
-          program
-        </a>
+        <a class="nav-link j-black-important j-hover-underline dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"> seminar series </a>
         <ul class="dropdown-menu border-0">
           {% assign events = site.pages | where: 'dir','/events/' |  sort: "date" %}
           {% for event in events %}
@@ -20,13 +21,10 @@
         </ul>
       </li>
       <li class="nav-item px-2">
-        <a class="nav-link" href="/the-project">the project</a>
+        <a class="nav-link j-black-important j-hover-underline" href="/final-event"> final event </a>
       </li>
       <li class="nav-item px-2">
-        <a class="nav-link" href="/final-event">final event</a>
-      </li>
-      <li class="nav-item px-2">
-        <a class="nav-link" href="/credits">credits</a>
+        <a class="nav-link j-black-important j-hover-underline" href="/credits"> credits </a>
       </li>
       </ul>
     </div>
@@ -63,7 +61,13 @@
 
         <ul class="ms-3 list-unstyled">
           <li class="">
-            <a class="j-fs-08vw j-fw-700 text-white text-decoration-none" href="/">home/program</a>
+            <a class="j-fs-08vw j-fw-700 text-white text-decoration-none" href="/"> home </a>
+          </li>
+          <li class="mt-1">
+            <a class="j-fs-08vw j-fw-700 text-white text-decoration-none" href="/the-project.html"> the project </a>
+          </li>
+          <li class="">
+            <a class="j-fs-08vw j-fw-700 text-white text-decoration-none" href="/"> seminar series </a>
           </li>
           <li class="">
             <ul class="list-unstyled">
@@ -73,14 +77,11 @@
               {% endfor %}
             </ul>
           </li>
-          <li class="mt-1">
-            <a class="j-fs-08vw j-fw-700 text-white text-decoration-none" href="/the-project.html">the project</a>
+          <li class="mt-2">
+            <a class="j-fs-08vw j-fw-700 text-white text-decoration-none" href="/final-event.html"> final event </a>
           </li>
           <li class="">
-            <a class="j-fs-08vw j-fw-700 text-white text-decoration-none" href="/final-event.html">final event</a>
-          </li>
-          <li class="">
-            <a class="j-fs-08vw j-fw-700 text-white text-decoration-none" href="/credits">credits</a>
+            <a class="j-fs-08vw j-fw-700 text-white text-decoration-none" href="/credits"> credits </a>
           </li>
         </ul>
 
