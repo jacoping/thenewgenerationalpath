@@ -1,5 +1,6 @@
 ---
 layout: events
+permalink: /events/the-nederlands
 
 title:         The Netherlands
 link:          meet.gogle.com/eji-efe-asd

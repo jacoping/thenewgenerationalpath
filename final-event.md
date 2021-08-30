@@ -1,6 +1,7 @@
 ---
 layout: pages
 title: Final event
+permalink: /final-event
 ---
 
 

@@ -1,5 +1,6 @@
 ---
 layout: events
+permalink: /events/greece
 
 title:         Greece
 link:          meet.gogle.com/eji-efe-asd

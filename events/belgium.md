@@ -1,5 +1,6 @@
 ---
 layout: events
+permalink: /events/belgium
 
 title:         Belgium
 link:          meet.gogle.com/eji-efe-asd

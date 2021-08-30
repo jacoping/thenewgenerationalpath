@@ -1,5 +1,6 @@
 ---
 layout: events
+permalink: /events/germany
 
 title:         Germany
 link:          meet.gogle.com/eji-efe-asd

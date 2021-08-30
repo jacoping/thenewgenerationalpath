@@ -1,5 +1,6 @@
 ---
 layout: events
+permalink: /events/spain
 
 title:         Spain
 link:          meet.gogle.com/eji-efe-asd
@@ -7,7 +8,7 @@ date:          2021-10-19
 time:          17:00-19:00
 studio-name:   JPAM
 studio-place:  Barcelona
-scholar-name:  Álvaro Clua 
+scholar-name:  Álvaro Clua
 scholar-place: UPC Barcelona
 
 ---

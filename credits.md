@@ -1,6 +1,7 @@
 ---
 layout: pages
 title: Credits
+permalink: /credits
 ---
 
 ## Coordinators

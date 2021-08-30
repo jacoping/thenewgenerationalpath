@@ -6,26 +6,37 @@
       <b>URBANISTIC PROJECTS</b> NEW GENERATIONAL PATHS
     </a>
     <div class=""">
-      <ul class=" navbar-nav ms-auto mb-2 mb-lg-0 j-fw-700">
+      <ul class=" navbar-nav ms-auto mb-2 mb-lg-0 j-fw-600">
 
       <li class="nav-item px-2">
-        <a class="nav-link j-black-important j-hover-underline" href="/the-project"> the project </a>
+        {% assign theName = 'the project' %}
+        {% assign theUrl = '/the-project' %}
+        <a class="nav-link j-black-important j-hover-underline {% if page.url == theUrl %}j-currentpage{% endif %}" href="{{theUrl}}"> {{theName}} </a>
       </li>
+
       <li class="nav-item dropdown px-2">
-        <a class="nav-link j-black-important j-hover-underline dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"> seminar series </a>
+        <a class="nav-link j-black-important j-hover-underline dropdown-toggle {% if page.url contains '/events/' %}j-underline{% endif %}" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"> seminar series </a>
         <ul class="dropdown-menu border-0">
           {% assign events = site.pages | where: 'dir','/events/' |  sort: "date" %}
           {% for event in events %}
-          <li><a class="dropdown-item" href="/events/{{event.title | downcase | slugify}}">{{event.title | downcase}}</a></li>
+          {% assign theUrl = event.permalink %}
+          <li><a class="dropdown-item {% if page.url == theUrl %}j-currentpage{% endif %}" href="{{theUrl}}">{{event.title | downcase}}</a></li>
           {% endfor %}
         </ul>
       </li>
+
       <li class="nav-item px-2">
-        <a class="nav-link j-black-important j-hover-underline" href="/final-event"> final event </a>
+        {% assign theName = 'final event' %}
+        {% assign theUrl = '/final-event' %}
+        <a class="nav-link j-black-important j-hover-underline {% if page.url == theUrl %}j-currentpage{% endif %}" href="{{theUrl}}"> {{theName}} </a>
       </li>
+
       <li class="nav-item px-2">
-        <a class="nav-link j-black-important j-hover-underline" href="/credits"> credits </a>
+        {% assign theName = 'credits' %}
+        {% assign theUrl = '/credits' %}
+        <a class="nav-link j-black-important j-hover-underline {% if page.url == theUrl %}j-currentpage{% endif %}" href="{{theUrl}}"> {{theName}} </a>
       </li>
+
       </ul>
     </div>
   </div>
@@ -33,6 +44,7 @@
 
 <div class="d-none d-lg-flex" style="margin-bottom: 150px;">
 </div>
+
 
 <!-- MOBILE MENU -->
 

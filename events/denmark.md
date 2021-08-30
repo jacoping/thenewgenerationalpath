@@ -1,5 +1,6 @@
 ---
 layout: events
+permalink: /events/denmark
 
 title:         Denmark
 link:          meet.gogle.com/eji-efe-asd

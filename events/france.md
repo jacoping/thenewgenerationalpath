@@ -1,5 +1,6 @@
 ---
 layout: events
+permalink: /events/france
 
 title:         France
 link:          meet.gogle.com/eji-efe-asd
