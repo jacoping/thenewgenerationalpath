@@ -95,6 +95,16 @@ html, body {
   cursor: default
 }
 
+.j-mb-7em {
+  margin-bottom: 7em;
+}
+
+.j-mb-lg-3em {
+  @include media-breakpoint-up(lg) {
+    margin-bottom: 3em;
+  } 
+}
+
 
 /* MARKDOWN CLASSES */
 
