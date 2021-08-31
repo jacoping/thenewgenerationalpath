@@ -1,5 +1,5 @@
 ---
-layout: home-new
+layout: home-alt
 language: eng
 title: The New Generational Paths / Seminar Series
 ---
