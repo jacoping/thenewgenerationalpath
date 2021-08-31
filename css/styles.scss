@@ -99,10 +99,16 @@ html, body {
   margin-bottom: 7em;
 }
 
+.j-mb-lg-1em {
+  @include media-breakpoint-up(lg) {
+    margin-bottom: 1em;
+  }
+}
+
 .j-mb-lg-3em {
   @include media-breakpoint-up(lg) {
     margin-bottom: 3em;
-  } 
+  }
 }
 
 
@@ -332,20 +338,6 @@ html, body {
   a, a:active, a:visited, a:hover {
     color: white;
     font-weight: 500;
-  }
-}
-
-.long-arrow {
-  position: absolute;
-  top: 15em;
-  left: 2em;
-}
-
-@media (min-width: 991.98px) {
-  .long-arrow {
-    position: relative;
-    top: 0em;
-    left: 0em;
   }
 }
 
