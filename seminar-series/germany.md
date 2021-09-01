@@ -9,7 +9,7 @@ time:          17:00-19:00
 studio-name:   Tele Internet Café
 studio-place:  Berlin
 scholar-name:  Sabine Muller/ Andreas Quednau
-scholar-place: SMAQ / AHO Oslo / LU Hannover
+scholar-place: SMAQ / AHO Oslo / LUH
 ---
 
 {% capture name %}{{page.studio-name}}{% endcapture %}
