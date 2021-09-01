@@ -1,22 +1,17 @@
-<!DOCTYPE html>
-<html lang="it" dir="ltr">
 {% include head.html %}
 
-<body>
 
-  {{content}}
+<body class="">
+  {% include header.html %}
 
-  <h1>Nothing found here..</h1>
+  <div class="container text-center" style="height: 50vh;">
+    <h1 class="h4">ERROR 404</h1>
+    <h2>This is not the page you're looking for.<br>Move along, move along...</h2>
+  </div>
 
-  <script>
-	  let redirect = function () {
-		setTimeout(function(){
-				window.location.replace("/");
-			}
-			, 100);
-		}();
-	</script>
+  {% include footer.html %}
 
+  {% include scripts-after.html %}
 </body>
 
 </html>
