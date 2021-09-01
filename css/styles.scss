@@ -285,7 +285,7 @@ html, body {
   font-size: 11.5vw;
 }
 
-@media (min-width: 575.98px) {
+@include media-breakpoint-up(sm) {
   .j-fs-sm-1rem {
     font-size: 1rem;
   }
@@ -299,7 +299,7 @@ html, body {
   }
 }
 
-@media (min-width: 991.98px) {
+@include media-breakpoint-up(lg) {
   .j-fs-lg-1rem {
     font-size: 1rem;
   }
@@ -378,7 +378,7 @@ $dark: #393939;
 }
 
 .j-border-lg {
-  @media (min-width: 991.98px) {
+  @include media-breakpoint-up(lg) {
     border: 1px solid #dee2e6 !important;
   }
 }
@@ -389,116 +389,4 @@ $dark: #393939;
 
 .j-border-10 {
   border-width: 10px !important;
-}
-
-
-
-.j-arrow {
-  padding-right: 4vw;
-  @media (min-width: 991.98px) {
-    padding-right: 100px;
-  }
-
-  img {
-    width: 30vw;
-    @media (min-width: 991.98px) {
-      width: 120px;
-    }
-  }
-}
-
-
-
-
-
-
-
-// DA RIMUOVERE IN SEGUITO
-
-.card-orange {
-  background-color: $orange;
-  .color-bg {
-    color: $orange;
-  }
-  .color-one {
-    color: white;
-  }
-  .color-two {
-    color: $dark;
-  }
-}
-
-.card-dark {
-  background-color: $dark;
-  .color-bg {
-    color: $dark;
-  }
-  .color-one {
-    color: $orange;
-  }
-  .color-two {
-    color: white;
-  }
-}
-
-@media (min-width: 575.98px) {
-  .card-sm-orange {
-    background-color: $orange;
-    .color-bg {
-      color: $orange;
-    }
-    .color-one {
-      color: white;
-    }
-    .color-two {
-      color: $dark;
-    }
-  }
-
-  .card-sm-dark {
-    background-color: $dark;
-    .color-bg {
-      color: $dark;
-    }
-    .color-one {
-      color: $orange;
-    }
-    .color-two {
-      color: white;
-    }
-  }
-}
-
-@media (min-width: 991.98px) {
-  .card-lg-orange {
-    background-color: $orange;
-    .color-bg {
-      color: $orange;
-    }
-    .color-one {
-      color: white;
-    }
-    .color-two {
-      color: $dark;
-    }
-  }
-
-  .card-lg-dark {
-    background-color: $dark;
-    .color-bg {
-      color: $dark;
-    }
-    .color-one {
-      color: $orange;
-    }
-    .color-two {
-      color: white;
-    }
-  }
-}
-
-@media (min-width: 991.98px) {
-  .j-lg-border-10-white {
-    border: 10px solid white;
-  }
 }
