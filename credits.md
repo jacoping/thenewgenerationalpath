@@ -5,19 +5,32 @@ permalink: /credits
 ---
 
 <style>
-h2 {
+.markdown h2 {
     font-size: 2rem;
     margin-top: 2rem;
    }
-p {
+.markdown p {
     line-height: 1.2;
     margin-bottom: .7rem;
   }
-strong {
+.markdown strong {
   white-space: nowrap;
   line-height: 1.4;
 }
+
+.height-4em {
+  height: 4em;
+}
+
+.height-8em {
+  height: 8em;
+}  
+
 </style>
+
+## Hosting institutions
+![Logo DIDA](/res/banner_DIDA_nero.svg){:.height-4em .me-5 .mt-2 .pb-2} ![Logo AHO](/res/aho-logo.png){:.height-4em .mt-2}
+
 
 ## Coordinators
 **Carlo Pisano**
@@ -59,23 +72,28 @@ TU Delft
 University of Copenhagen
 
 
-## Participants (Offices + Scholars)
-**JPAM** (Barcelona)
-**DROM** (Rotterdam)
-**Point Supreme** (Athens)
-**Altitude 35** (Paris)
-**Tele Internet Café** (Berlin)
-**Plusoffice** (Bruxelles)
-**Sted** (Copenhagen)
+## Offices
+**JPAM**
+Barcelona
 
-**Alvaro Clua Uceda** (UPC Barcelona)
-**Taneha Kuzniecow Bacchin** (TU Delft)
-**Fabiano Micocci** (University of Thessaly, Volos)
-**Ido Avissar** (Paris-est)
-**Sabine Muller** (SMAQ, AHO Oslo)
-**Andreas Quednau** (SMAQ, LU Hannover)
-**Joachim Declerck** (UGent)
-**Ellen Braae** (University of Copenhagen)
+**DROM**
+Rotterdam
+
+**Point Supreme**
+Athens
+
+**Altitude 35**
+Paris
+
+**Tele Internet Café**
+Berlin
+
+**Plusoffice**
+Bruxelles
+
+**Sted**
+Copenhagen
+
 
 
 ## Board of the Thematic Seminar at the School of Architecture, University of Florence
@@ -88,4 +106,4 @@ didacommunicationlab, Department of Architecture, University of Florence
 
 
 ## Partners
-**Florence Metropolitan City**
+![Logo DIDA](/res/logo-citta-metro.png){: .height-8em .me-5} ![Logo AHO](/res/logo-oaf.jpg){:.height-8em}
