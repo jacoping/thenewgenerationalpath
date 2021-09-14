@@ -47,11 +47,11 @@ UNIFI, Florence
 **Giambattista Zaccariotto**, **Sabine Muller**, **Halvor Weider Ellefsen**
 AHO, Oslo
 
-**Joan Busquets**
-GSD Harvard
-
 **Paola Viganò**
 EPFL, Lausanne - IUAV, Venice
+
+**Joan Busquets**
+GSD Harvard
 
 **Alex Wall**
 GSD Harvard 
