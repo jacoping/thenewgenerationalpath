@@ -109,4 +109,4 @@ didacommunicationlab, Department of Architecture, University of Florence
 
 
 ## Partners
-![Logo DIDA](/res/logo-citta-metro.png){: .height-8em .me-5} ![Logo AHO](/res/logo-oaf.jpg){:.height-8em} ![Logo AHO](/res/logo-AHO.jpg){:.height-8em}
+![Logo DIDA](/res/logo-citta-metro.png){: .height-8em .me-5} ![Logo AHO](/res/logo-oaf.jpg){:.height-8em}
