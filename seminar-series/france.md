@@ -16,7 +16,7 @@ scholar-place: Paris-est
 {% capture place %}{{page.studio-place}}{% endcapture %}
 {% include data.html type="office" name=name place=place %}
 
-ALTITUDE 35 was founded in 2017 from landscape architects Clara Loukkal and Benoit Barnoud, in the center of Paris’s sport districts of Seine-Saint Denis, after a ten-years collaborate experience with Michel Desvigne Paysagiste and Agence Ter. At the crossroads between landscape and urbanism planning, Altitude 35 develops a systemic and multiscalar approach, based on geography as a lever for the production of the project, contrastingly with stardardization of city and territory. The office is  a three-time winner of the Europan Competition (2013, 2014, 2015).
+ALTITUDE 35 was founded in 2017 from landscape architects Clara Loukkal and Benoit Barnoud, in the center of Paris’s sport districts of Seine-Saint Denis, after a ten-years collaborate experience with Michel Desvigne Paysagiste and Agence Ter. At the crossroads between landscape and urbanism planning, Altitude 35 develops a systemic and multiscalar approach, based on geography as a lever for the production of the project, contrastingly with stardardization of city and territory. The office is  a three-time winner of the Europan Competition (13, 14, 15).
 
 [+ info](https://www.altitude35.com/)
 
