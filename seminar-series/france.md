@@ -3,7 +3,7 @@ layout: seminar-series
 permalink: /seminar-series/france
 
 title:         France
-link:          meet.gogle.com/eji-efe-asd
+link:          https://youtu.be/nkeCV3uG5kE
 date:          2021-09-28
 time:          17:00-19:00
 studio-name:   "Altitude\u00A035"
