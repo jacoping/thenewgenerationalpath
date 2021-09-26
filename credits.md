@@ -54,7 +54,7 @@ EPFL, Lausanne - IUAV, Venice
 GSD Harvard
 
 **Alex Wall**
-GSD Harvard 
+GSD Harvard
 
 **Fabiano Micocci**
 University of Thessaly, Volos
@@ -109,4 +109,4 @@ didacommunicationlab, Department of Architecture, University of Florence
 
 
 ## Partners
-![Logo DIDA](/res/logo-citta-metro.png){: .height-8em .me-5} ![Logo OAF](/res/logo-oaf.jpg){:.height-8em} ![Logo AHO](/res/logo-AHO.jpeg){:.height-8em}
+![Logo DIDA](/res/logo-citta-metro.png){: .height-8em .me-5} ![Logo OAF](/res/logo-oaf.jpg){:.height-8em .me-2} ![Logo AHO](/res/logo-aho-open.png){:.height-8em .p-2 .mt-3}
