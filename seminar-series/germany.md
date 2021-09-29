@@ -3,7 +3,7 @@ layout: seminar-series
 permalink: /seminar-series/germany
 
 title:         Germany
-link:          meet.gogle.com/eji-efe-asd
+link:          https://youtu.be/TF-kimucMo4
 date:          2021-10-05
 time:          17:00-19:00
 studio-name:   Tele Internet Café
@@ -29,3 +29,5 @@ Sabine Muller is Professor for Urbanism at the Institute of Urbanism and Landsca
 [+ info ](https://aho.no/en/aho-staff/sabimull)
 
 Andreas Quednau is founding partner of SMAQ and Professor of Urban Design at Leibniz University Hannover. He received a Diploma in Architecture from Berlin University of Technology and a Master in Advanced Architectural Design (hons) from Columbia University, Graduate School for Architecture Planning and Preservation in New York. He worked for Diller Scofidio + Renfro (New York), KCAP (Rotterdam) and Arata Isozaki (Berlin) before establishing SMAQ with Sabine Müller in 2001 (2001-2005 located in Rotterdam, since 2005 located in Berlin). He has received several international awards including the Architectural Review Award for Emerging Architects and the Holcim Award for Sustainable Construction. He taught at the Berlin University of Technology (2005-2007 and 2008-2009) and was Professor of Architecture and Urban Design at the Stuttgart State Academy for Art and Design, School of Architecture (2007-2008 and 2009-2015). In 2015 he was appointed Professor of Urban Design at Leibniz University Hannover, Faculty of Architecture and Landscape Sciences.
+
+[+ info ](https://www.smaq.net/2015/10/prof-dipl-ing-m-sc-andreas-quednau/?lang=en)
