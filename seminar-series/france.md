@@ -3,7 +3,7 @@ layout: seminar-series
 permalink: /seminar-series/france
 
 title:         France
-link:          https://youtu.be/nkeCV3uG5kE
+link:          https://youtu.be/7rbOory8wzU
 date:          2021-09-28
 time:          17:00-19:00
 studio-name:   "Altitude\u00A035"
