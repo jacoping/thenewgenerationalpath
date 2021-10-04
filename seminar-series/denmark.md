@@ -18,7 +18,7 @@ scholar-place: University of Copenhagen
 
 STED was founded by landscape architect Martin Hjerl and architect Rosa Lund in 2015. The studio’s name (from danish, “place”) has been chosen to emphasize the main focus of their works, in order to point out the importance of understanding the site to create good and sustainable landcsape architecture with local ownership and anchoring. Their projects are characterized by interscalarity, strategy and experimentalism, and working with a interdisplinary work group, composed by architects, landscape architects, urban planners and a landcsape engineer.
 
-[+ info](https://sted-cph.dk/vi-er/)
+[+ info](https://sted-cph.dk/)
 
 {% capture name %}{{page.scholar-name}}{% endcapture %}
 {% capture place %}{{page.scholar-place}}{% endcapture %}
