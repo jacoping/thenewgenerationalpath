@@ -3,7 +3,7 @@ layout: seminar-series
 permalink: /seminar-series/germany
 
 title:         Germany
-link:          https://youtu.be/TF-kimucMo4
+link:          https://youtu.be/MqKjRubOS00
 date:          2021-10-05
 time:          17:00-19:00
 studio-name:   Tele Internet Café
