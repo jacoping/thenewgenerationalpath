@@ -3,7 +3,7 @@ layout: seminar-series
 permalink: /seminar-series/denmark
 
 title:         Denmark
-link:          meet.gogle.com/eji-efe-asd
+link:          https://youtu.be/nJcwSRp0ELw
 date:          2021-10-12
 time:          17:00-19:00
 studio-name:   Sted
