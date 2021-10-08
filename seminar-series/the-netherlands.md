@@ -3,7 +3,7 @@ layout: seminar-series
 permalink: /seminar-series/the-nederlands
 
 title:         The Netherlands
-link:          meet.gogle.com/eji-efe-asd
+link:          https://youtu.be/nI89MyXch44
 date:          2021-11-09
 time:          17:00-19:00
 studio-name:   DROM
