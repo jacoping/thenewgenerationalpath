@@ -3,7 +3,7 @@ layout: seminar-series
 permalink: /seminar-series/belgium
 
 title:         Belgium
-link:          meet.gogle.com/eji-efe-asd
+link:          https://youtu.be/CmFxPjX9YwY
 date:          2021-11-02
 time:          17:00-19:00
 studio-name:   Plusoffice
@@ -27,4 +27,4 @@ PLUSOFFICE  was founded by Nathan Ooms and Ward Verbakel in Bruxelles, following
 
 Joachim Declerck is civil engineer in architecture and urbanism, and founder and director of non-profit Architecture Workroom Brussels (AWB), a platform that offers the space and support for the development of innovative spatial research and strategies. Since 2014, Declerck is Professor at Ghent University (BE), and in 2020 he is Visiting Professor at EPFL (CH). The focus of his work is the role and contribution of design and spatial transformation to the implementation of important societal transitions. Declerck’s focus is on strategic transformations such as ‘visionary housing construction’, ‘productive landscapes’, ‘care and neighborhoods’, ‘the productive and circular city’, ‘energy neighborhoods’, etc. From the perspective of design and spatial transformation, Declerck regularly contributes to the broader societal debate (newspapers, opinions, etc), to the development of the practice and to professional knowledge development, and to the innovation of urban/rural transition policies, implementation methods and investment programs.
 
-[+ info](https://conference.evpa.eu.com/speaker/joachim-declerck-2/)
+[+ info](https://www.architectureworkroom.eu/en/people/848/joachim-declerck)
