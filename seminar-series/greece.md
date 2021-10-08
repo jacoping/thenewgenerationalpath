@@ -3,7 +3,7 @@ layout: seminar-series
 permalink: /seminar-series/greece
 
 title:         Greece
-link:          meet.gogle.com/eji-efe-asd
+link:          https://youtu.be/x3TFgiHLrQU
 date:          2021-10-26
 time:          17:00-19:00
 studio-name:   Point Supreme
