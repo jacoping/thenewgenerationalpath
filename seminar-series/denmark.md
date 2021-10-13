@@ -3,7 +3,7 @@ layout: seminar-series
 permalink: /seminar-series/denmark
 
 title:         Denmark
-link:          https://youtu.be/nJcwSRp0ELw
+link:          https://youtu.be/7zLO7G53W0Y
 date:          2021-10-12
 time:          17:00-19:00
 studio-name:   Sted
