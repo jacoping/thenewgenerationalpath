@@ -16,7 +16,7 @@ scholar-place: UPC Barcelona
 {% capture place %}{{page.studio-place}}{% endcapture %}
 {% include data.html type="office" name=name place=place %}
 
-JPAM is an architecture and urban design studio based in Barcelona founded by Manuel de Solà-Morales main collaborators. Its practice is focused on urban projects and concerned with the contemporary production of cities, from urban processes to material definition. JPAM pays special attention to the exploration of new urban forms and tools methods aiming the necessity to built new urban discourses. JPAM is led by Jorge Perea and Amado Martín gathering both professional experiences. The office was estabilished in 2013 and, in every project, their core of interest stands in the vision of a new city’s life and design, in a balance between reuse and innovation.
+JPAM is an architecture and urban design studio based in Barcelona founded by Manuel de Solà-Morales main collaborators. Its practice is focused on urban projects and concerned with the contemporary production of cities, from urban processes to material definition. JPAM pays special attention to the exploration of new urban forms and tools methods aiming the necessity to built new urban discourses. JPAM is led by Jorge Perea, Amado Martín and Samuel Llovet gathering both professional experiences. The office was estabilished in 2013 and, in every project, their core of interest stands in the vision of a new city’s life and design, in a balance between reuse and innovation.
 
 [+ info](http://jpam.eu/about-jpam-city-makers.html)
 
