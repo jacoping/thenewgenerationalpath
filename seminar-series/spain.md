@@ -3,7 +3,7 @@ layout: seminar-series
 permalink: /seminar-series/spain
 
 title:         Spain
-link:          https://youtu.be/og10FLX1dq8
+link:          https://youtu.be/hwKN1EEWLYU
 date:          2021-10-19
 time:          17:00-19:00
 studio-name:   JPAM
