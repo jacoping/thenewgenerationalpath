@@ -100,7 +100,7 @@ Copenhagen
 
 
 ## Board of the Thematic Seminar at the School of Architecture, University of Florence
-**Carlo Pisano**, **Lorenzo Ciccarelli**, **Valeria Lingua**, **Tessa Matteini**, **Andrea Innocenzo Volpe**, **Saverio Torzoni** (assistant)
+**Carlo Pisano**, **Massimo Carta**, **Lorenzo Ciccarelli**, **Valeria Lingua**, **Tessa Matteini**, **Andrea Innocenzo Volpe**, **Saverio Torzoni** (assistant)
 
 
 ## Communication
