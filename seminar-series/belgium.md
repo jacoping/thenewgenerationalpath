@@ -3,7 +3,7 @@ layout: seminar-series
 permalink: /seminar-series/belgium
 
 title:         Belgium
-link:          https://youtu.be/CmFxPjX9YwY
+link:          https://youtu.be/V46H5TVUm00
 date:          2021-11-02
 time:          17:00-19:00
 studio-name:   Plusoffice
